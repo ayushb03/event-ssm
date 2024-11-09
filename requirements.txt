@@ -1,5 +1,5 @@
 --extra-index-url https://download.pytorch.org/whl/cpu
-jax[cuda12]
+jax
 flax
 jaxtyping
 optax

@@ -1,0 +1,1301 @@
+[2024-11-08 13:20:15,409][absl][INFO] - [process=0] Started saving checkpoint to /Users/ayush/Desktop/event-ssm/outputs/2024-11-08-12-31-56/checkpoints/checkpoint_508.
+[2024-11-08 13:20:15,414][absl][INFO] - [process=0][thread=MainThread] Skipping global process sync, barrier name: create_tmp_directory:pre.checkpoint_508.4
+[2024-11-08 13:20:15,417][absl][INFO] - Creating tmp directory /Users/ayush/Desktop/event-ssm/outputs/2024-11-08-12-31-56/checkpoints/checkpoint_508.orbax-checkpoint-tmp-3
+[2024-11-08 13:20:15,418][absl][INFO] - [process=0][thread=MainThread] Skipping global process sync, barrier name: create_tmp_directory:post.checkpoint_508.5
+[2024-11-08 13:20:15,467][absl][INFO] - [process=0] /jax/checkpoint/write/blocking_bytes_per_sec: 138.4 MiB/s (total bytes: 6.5 MiB) (time elapsed: 46 milliseconds) (per-host)
+[2024-11-08 13:20:15,900][absl][INFO] - ChainedFuture completed 2/2 futures in 0.07 seconds.
+[2024-11-08 13:20:15,901][absl][INFO] - [process=0] /jax/checkpoint/write/bytes_per_sec: 13.5 MiB/s (total bytes: 6.5 MiB) (time elapsed: 480 milliseconds) (per-host)
+[2024-11-08 13:20:15,901][absl][INFO] - [process=0][thread=MainThread] Skipping global process sync, barrier name: Checkpointer:save.checkpoint_508
+[2024-11-08 13:20:15,908][absl][INFO] - [process=0][thread=MainThread] Validating params (raw input=534, unique=267) in TensorStore KvStore: KvStore({
+  'base': {
+    'driver': 'file',
+    'path': '/Users/ayush/Desktop/event-ssm/outputs/2024-11-08-12-31-56/checkpoints/checkpoint_508.orbax-checkpoint-tmp-3/',
+  },
+  'cache_pool': 'cache_pool#ocdbt',
+  'config': {
+    'compression': {'id': 'zstd'},
+    'max_decoded_node_bytes': 100000000,
+    'max_inline_value_bytes': 1024,
+    'uuid': 'b26db7603bc7e8a8e0d72e73b5801e2b',
+    'version_tree_arity_log2': 4,
+  },
+  'context': {
+    'cache_pool#ocdbt': {'total_bytes_limit': 100000000},
+    'data_copy_concurrency': {},
+    'file_io_concurrency': {'limit': 128},
+    'file_io_sync': True,
+    'ocdbt_coordinator': {},
+  },
+  'driver': 'ocdbt',
+  'experimental_read_coalescing_interval': '1ms',
+  'experimental_read_coalescing_merged_bytes': 500000000000,
+  'experimental_read_coalescing_threshold_bytes': 1000000,
+}).
+[2024-11-08 13:20:15,908][absl][INFO] - Renaming /Users/ayush/Desktop/event-ssm/outputs/2024-11-08-12-31-56/checkpoints/checkpoint_508.orbax-checkpoint-tmp-3 to /Users/ayush/Desktop/event-ssm/outputs/2024-11-08-12-31-56/checkpoints/checkpoint_508
+[2024-11-08 13:20:15,909][absl][INFO] - [process=0][thread=MainThread] Finished saving checkpoint (finalized tmp dir) to `/Users/ayush/Desktop/event-ssm/outputs/2024-11-08-12-31-56/checkpoints/checkpoint_508`.
+[2024-11-08 13:20:15,909][absl][INFO] - [process=0][thread=MainThread] Skipping global process sync, barrier name: Checkpointer:finalize.checkpoint_508
+[2024-11-08 13:20:15,909][absl][INFO] - Removing checkpoint at /Users/ayush/Desktop/event-ssm/outputs/2024-11-08-12-31-56/checkpoints/checkpoint_254
+WARNING:absl:Tensorflow library not found, tensorflow.io.gfile operations will use native shim calls. GCS paths (i.e. 'gs://...') cannot be accessed.
+WARNING:absl:Tensorflow library not found, tensorflow.io.gfile operations will use native shim calls. GCS paths (i.e. 'gs://...') cannot be accessed.
+WARNING:absl:Tensorflow library not found, tensorflow.io.gfile operations will use native shim calls. GCS paths (i.e. 'gs://...') cannot be accessed.
+WARNING:absl:Tensorflow library not found, tensorflow.io.gfile operations will use native shim calls. GCS paths (i.e. 'gs://...') cannot be accessed.
+/Users/ayush/Desktop/event-ssm/.venv/lib/python3.9/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+/Users/ayush/Desktop/event-ssm/.venv/lib/python3.9/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+/Users/ayush/Desktop/event-ssm/.venv/lib/python3.9/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+/Users/ayush/Desktop/event-ssm/.venv/lib/python3.9/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+SSM: 96 -> 128 -> 96 (stride 8 with pooling mode avgpool)
+SSM: 96 -> 128 -> 96
+SSM: 96 -> 128 -> 96
+SSM: 96 -> 128 -> 96 (stride 8 with pooling mode avgpool)
+SSM: 96 -> 128 -> 96
+SSM: 96 -> 128 -> 96
+/Users/ayush/Desktop/event-ssm/.venv/lib/python3.9/site-packages/jax/_src/lax/lax.py:2785: ComplexWarning: Casting complex values to real discards the imaginary part
+  x_bar = _convert_element_type(x_bar, x.aval.dtype, x.aval.weak_type)
+-----------------------------------------------------------------------------------------
+| end of epoch   3 | time per epoch: 1172.08s |
+| Train Metrics | accuracy:  0.72 | loss:  1.06
+WARNING:absl:Tensorflow library not found, tensorflow.io.gfile operations will use native shim calls. GCS paths (i.e. 'gs://...') cannot be accessed.
+WARNING:absl:Tensorflow library not found, tensorflow.io.gfile operations will use native shim calls. GCS paths (i.e. 'gs://...') cannot be accessed.
+WARNING:absl:Tensorflow library not found, tensorflow.io.gfile operations will use native shim calls. GCS paths (i.e. 'gs://...') cannot be accessed.
+WARNING:absl:Tensorflow library not found, tensorflow.io.gfile operations will use native shim calls. GCS paths (i.e. 'gs://...') cannot be accessed.
+/Users/ayush/Desktop/event-ssm/.venv/lib/python3.9/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+/Users/ayush/Desktop/event-ssm/.venv/lib/python3.9/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+/Users/ayush/Desktop/event-ssm/.venv/lib/python3.9/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+/Users/ayush/Desktop/event-ssm/.venv/lib/python3.9/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+| Eval  Metrics | accuracy:  0.84 | loss:  0.45
+-----------------------------------------------------------------------------------------
+[2024-11-08 13:43:16,613][absl][INFO] - Saving checkpoint at step: 762
+[2024-11-08 13:43:16,615][absl][INFO] - Using Orbax as backend to save Flax checkpoints. For potential troubleshooting see: https://flax.readthedocs.io/en/latest/guides/training_techniques/use_checkpointing.html#orbax-as-backend-troubleshooting
+[2024-11-08 13:43:16,625][absl][INFO] - [process=0] Started saving checkpoint to /Users/ayush/Desktop/event-ssm/outputs/2024-11-08-12-31-56/checkpoints/checkpoint_762.
+[2024-11-08 13:43:16,630][absl][INFO] - [process=0][thread=MainThread] Skipping global process sync, barrier name: create_tmp_directory:pre.checkpoint_762.7
+[2024-11-08 13:43:16,631][absl][INFO] - Creating tmp directory /Users/ayush/Desktop/event-ssm/outputs/2024-11-08-12-31-56/checkpoints/checkpoint_762.orbax-checkpoint-tmp-6
+[2024-11-08 13:43:16,633][absl][INFO] - [process=0][thread=MainThread] Skipping global process sync, barrier name: create_tmp_directory:post.checkpoint_762.8
+[2024-11-08 13:43:16,681][absl][INFO] - [process=0] /jax/checkpoint/write/blocking_bytes_per_sec: 139.3 MiB/s (total bytes: 6.5 MiB) (time elapsed: 46 milliseconds) (per-host)
+[2024-11-08 13:43:16,779][absl][INFO] - ChainedFuture completed 2/2 futures in 0.07 seconds.
+[2024-11-08 13:43:16,779][absl][INFO] - [process=0] /jax/checkpoint/write/bytes_per_sec: 44.6 MiB/s (total bytes: 6.5 MiB) (time elapsed: 145 milliseconds) (per-host)
+[2024-11-08 13:43:16,779][absl][INFO] - [process=0][thread=MainThread] Skipping global process sync, barrier name: Checkpointer:save.checkpoint_762
+[2024-11-08 13:43:16,788][absl][INFO] - [process=0][thread=MainThread] Validating params (raw input=534, unique=267) in TensorStore KvStore: KvStore({
+  'base': {
+    'driver': 'file',
+    'path': '/Users/ayush/Desktop/event-ssm/outputs/2024-11-08-12-31-56/checkpoints/checkpoint_762.orbax-checkpoint-tmp-6/',
+  },
+  'cache_pool': 'cache_pool#ocdbt',
+  'config': {
+    'compression': {'id': 'zstd'},
+    'max_decoded_node_bytes': 100000000,
+    'max_inline_value_bytes': 1024,
+    'uuid': '1e9d5a6684dee8b8f808c5e42c9b4d45',
+    'version_tree_arity_log2': 4,
+  },
+  'context': {
+    'cache_pool#ocdbt': {'total_bytes_limit': 100000000},
+    'data_copy_concurrency': {},
+    'file_io_concurrency': {'limit': 128},
+    'file_io_sync': True,
+    'ocdbt_coordinator': {},
+  },
+  'driver': 'ocdbt',
+  'experimental_read_coalescing_interval': '1ms',
+  'experimental_read_coalescing_merged_bytes': 500000000000,
+  'experimental_read_coalescing_threshold_bytes': 1000000,
+}).
+[2024-11-08 13:43:16,788][absl][INFO] - Renaming /Users/ayush/Desktop/event-ssm/outputs/2024-11-08-12-31-56/checkpoints/checkpoint_762.orbax-checkpoint-tmp-6 to /Users/ayush/Desktop/event-ssm/outputs/2024-11-08-12-31-56/checkpoints/checkpoint_762
+[2024-11-08 13:43:16,789][absl][INFO] - [process=0][thread=MainThread] Finished saving checkpoint (finalized tmp dir) to `/Users/ayush/Desktop/event-ssm/outputs/2024-11-08-12-31-56/checkpoints/checkpoint_762`.
+[2024-11-08 13:43:16,789][absl][INFO] - [process=0][thread=MainThread] Skipping global process sync, barrier name: Checkpointer:finalize.checkpoint_762
+[2024-11-08 13:43:16,791][absl][INFO] - Removing checkpoint at /Users/ayush/Desktop/event-ssm/outputs/2024-11-08-12-31-56/checkpoints/checkpoint_508
+WARNING:absl:Tensorflow library not found, tensorflow.io.gfile operations will use native shim calls. GCS paths (i.e. 'gs://...') cannot be accessed.
+WARNING:absl:Tensorflow library not found, tensorflow.io.gfile operations will use native shim calls. GCS paths (i.e. 'gs://...') cannot be accessed.
+WARNING:absl:Tensorflow library not found, tensorflow.io.gfile operations will use native shim calls. GCS paths (i.e. 'gs://...') cannot be accessed.
+WARNING:absl:Tensorflow library not found, tensorflow.io.gfile operations will use native shim calls. GCS paths (i.e. 'gs://...') cannot be accessed.
+/Users/ayush/Desktop/event-ssm/.venv/lib/python3.9/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+/Users/ayush/Desktop/event-ssm/.venv/lib/python3.9/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+/Users/ayush/Desktop/event-ssm/.venv/lib/python3.9/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+/Users/ayush/Desktop/event-ssm/.venv/lib/python3.9/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+-----------------------------------------------------------------------------------------
+| end of epoch   4 | time per epoch: 1119.73s |
+| Train Metrics | accuracy:  0.73 | loss:  1.05
+WARNING:absl:Tensorflow library not found, tensorflow.io.gfile operations will use native shim calls. GCS paths (i.e. 'gs://...') cannot be accessed.
+WARNING:absl:Tensorflow library not found, tensorflow.io.gfile operations will use native shim calls. GCS paths (i.e. 'gs://...') cannot be accessed.
+WARNING:absl:Tensorflow library not found, tensorflow.io.gfile operations will use native shim calls. GCS paths (i.e. 'gs://...') cannot be accessed.
+WARNING:absl:Tensorflow library not found, tensorflow.io.gfile operations will use native shim calls. GCS paths (i.e. 'gs://...') cannot be accessed.
+/Users/ayush/Desktop/event-ssm/.venv/lib/python3.9/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+/Users/ayush/Desktop/event-ssm/.venv/lib/python3.9/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+/Users/ayush/Desktop/event-ssm/.venv/lib/python3.9/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+/Users/ayush/Desktop/event-ssm/.venv/lib/python3.9/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+| Eval  Metrics | accuracy:  0.84 | loss:  0.44
+-----------------------------------------------------------------------------------------
+[2024-11-08 14:25:39,355][absl][INFO] - Saving checkpoint at step: 1016
+[2024-11-08 14:25:39,357][absl][INFO] - Using Orbax as backend to save Flax checkpoints. For potential troubleshooting see: https://flax.readthedocs.io/en/latest/guides/training_techniques/use_checkpointing.html#orbax-as-backend-troubleshooting
+[2024-11-08 14:25:39,367][absl][INFO] - [process=0] Started saving checkpoint to /Users/ayush/Desktop/event-ssm/outputs/2024-11-08-12-31-56/checkpoints/checkpoint_1016.
+[2024-11-08 14:25:39,372][absl][INFO] - [process=0][thread=MainThread] Skipping global process sync, barrier name: create_tmp_directory:pre.checkpoint_1016.10
+[2024-11-08 14:25:39,374][absl][INFO] - Creating tmp directory /Users/ayush/Desktop/event-ssm/outputs/2024-11-08-12-31-56/checkpoints/checkpoint_1016.orbax-checkpoint-tmp-9
+[2024-11-08 14:25:39,376][absl][INFO] - [process=0][thread=MainThread] Skipping global process sync, barrier name: create_tmp_directory:post.checkpoint_1016.11
+[2024-11-08 14:25:39,759][absl][INFO] - [process=0] /jax/checkpoint/write/blocking_bytes_per_sec: 16.9 MiB/s (total bytes: 6.5 MiB) (time elapsed: 382 milliseconds) (per-host)
+[2024-11-08 14:25:39,836][absl][INFO] - ChainedFuture completed 2/2 futures in 0.07 seconds.
+[2024-11-08 14:25:39,836][absl][INFO] - [process=0] /jax/checkpoint/write/bytes_per_sec: 14.1 MiB/s (total bytes: 6.5 MiB) (time elapsed: 459 milliseconds) (per-host)
+[2024-11-08 14:25:39,836][absl][INFO] - [process=0][thread=MainThread] Skipping global process sync, barrier name: Checkpointer:save.checkpoint_1016
+[2024-11-08 14:25:39,843][absl][INFO] - [process=0][thread=MainThread] Validating params (raw input=534, unique=267) in TensorStore KvStore: KvStore({
+  'base': {
+    'driver': 'file',
+    'path': '/Users/ayush/Desktop/event-ssm/outputs/2024-11-08-12-31-56/checkpoints/checkpoint_1016.orbax-checkpoint-tmp-9/',
+  },
+  'cache_pool': 'cache_pool#ocdbt',
+  'config': {
+    'compression': {'id': 'zstd'},
+    'max_decoded_node_bytes': 100000000,
+    'max_inline_value_bytes': 1024,
+    'uuid': 'ab4216a0f6859252a37ead6f363cc72e',
+    'version_tree_arity_log2': 4,
+  },
+  'context': {
+    'cache_pool#ocdbt': {'total_bytes_limit': 100000000},
+    'data_copy_concurrency': {},
+    'file_io_concurrency': {'limit': 128},
+    'file_io_sync': True,
+    'ocdbt_coordinator': {},
+  },
+  'driver': 'ocdbt',
+  'experimental_read_coalescing_interval': '1ms',
+  'experimental_read_coalescing_merged_bytes': 500000000000,
+  'experimental_read_coalescing_threshold_bytes': 1000000,
+}).
+[2024-11-08 14:25:39,843][absl][INFO] - Renaming /Users/ayush/Desktop/event-ssm/outputs/2024-11-08-12-31-56/checkpoints/checkpoint_1016.orbax-checkpoint-tmp-9 to /Users/ayush/Desktop/event-ssm/outputs/2024-11-08-12-31-56/checkpoints/checkpoint_1016
+[2024-11-08 14:25:39,844][absl][INFO] - [process=0][thread=MainThread] Finished saving checkpoint (finalized tmp dir) to `/Users/ayush/Desktop/event-ssm/outputs/2024-11-08-12-31-56/checkpoints/checkpoint_1016`.
+[2024-11-08 14:25:39,844][absl][INFO] - [process=0][thread=MainThread] Skipping global process sync, barrier name: Checkpointer:finalize.checkpoint_1016
+[2024-11-08 14:25:39,844][absl][INFO] - Removing checkpoint at /Users/ayush/Desktop/event-ssm/outputs/2024-11-08-12-31-56/checkpoints/checkpoint_762
+WARNING:absl:Tensorflow library not found, tensorflow.io.gfile operations will use native shim calls. GCS paths (i.e. 'gs://...') cannot be accessed.
+WARNING:absl:Tensorflow library not found, tensorflow.io.gfile operations will use native shim calls. GCS paths (i.e. 'gs://...') cannot be accessed.
+WARNING:absl:Tensorflow library not found, tensorflow.io.gfile operations will use native shim calls. GCS paths (i.e. 'gs://...') cannot be accessed.
+WARNING:absl:Tensorflow library not found, tensorflow.io.gfile operations will use native shim calls. GCS paths (i.e. 'gs://...') cannot be accessed.
+/Users/ayush/Desktop/event-ssm/.venv/lib/python3.9/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+/Users/ayush/Desktop/event-ssm/.venv/lib/python3.9/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+/Users/ayush/Desktop/event-ssm/.venv/lib/python3.9/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+/Users/ayush/Desktop/event-ssm/.venv/lib/python3.9/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+-----------------------------------------------------------------------------------------
+| end of epoch   5 | time per epoch: 2451.58s |
+| Train Metrics | accuracy:  0.79 | loss:  0.85
+WARNING:absl:Tensorflow library not found, tensorflow.io.gfile operations will use native shim calls. GCS paths (i.e. 'gs://...') cannot be accessed.
+WARNING:absl:Tensorflow library not found, tensorflow.io.gfile operations will use native shim calls. GCS paths (i.e. 'gs://...') cannot be accessed.
+WARNING:absl:Tensorflow library not found, tensorflow.io.gfile operations will use native shim calls. GCS paths (i.e. 'gs://...') cannot be accessed.
+WARNING:absl:Tensorflow library not found, tensorflow.io.gfile operations will use native shim calls. GCS paths (i.e. 'gs://...') cannot be accessed.
+/Users/ayush/Desktop/event-ssm/.venv/lib/python3.9/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+/Users/ayush/Desktop/event-ssm/.venv/lib/python3.9/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+/Users/ayush/Desktop/event-ssm/.venv/lib/python3.9/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+/Users/ayush/Desktop/event-ssm/.venv/lib/python3.9/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+| Eval  Metrics | accuracy:  0.87 | loss:  0.38
+-----------------------------------------------------------------------------------------
+[2024-11-08 15:25:40,848][absl][INFO] - Saving checkpoint at step: 1270
+[2024-11-08 15:25:40,849][absl][INFO] - Using Orbax as backend to save Flax checkpoints. For potential troubleshooting see: https://flax.readthedocs.io/en/latest/guides/training_techniques/use_checkpointing.html#orbax-as-backend-troubleshooting
+[2024-11-08 15:25:40,862][absl][INFO] - [process=0] Started saving checkpoint to /Users/ayush/Desktop/event-ssm/outputs/2024-11-08-12-31-56/checkpoints/checkpoint_1270.
+[2024-11-08 15:25:40,865][absl][INFO] - [process=0][thread=MainThread] Skipping global process sync, barrier name: create_tmp_directory:pre.checkpoint_1270.13
+[2024-11-08 15:25:40,868][absl][INFO] - Creating tmp directory /Users/ayush/Desktop/event-ssm/outputs/2024-11-08-12-31-56/checkpoints/checkpoint_1270.orbax-checkpoint-tmp-12
+[2024-11-08 15:25:40,870][absl][INFO] - [process=0][thread=MainThread] Skipping global process sync, barrier name: create_tmp_directory:post.checkpoint_1270.14
+[2024-11-08 15:25:40,924][absl][INFO] - [process=0] /jax/checkpoint/write/blocking_bytes_per_sec: 124.1 MiB/s (total bytes: 6.5 MiB) (time elapsed: 52 milliseconds) (per-host)
+[2024-11-08 15:25:41,017][absl][INFO] - ChainedFuture completed 2/2 futures in 0.07 seconds.
+[2024-11-08 15:25:41,017][absl][INFO] - [process=0] /jax/checkpoint/write/bytes_per_sec: 44.1 MiB/s (total bytes: 6.5 MiB) (time elapsed: 146 milliseconds) (per-host)
+[2024-11-08 15:25:41,017][absl][INFO] - [process=0][thread=MainThread] Skipping global process sync, barrier name: Checkpointer:save.checkpoint_1270
+[2024-11-08 15:25:41,026][absl][INFO] - [process=0][thread=MainThread] Validating params (raw input=534, unique=267) in TensorStore KvStore: KvStore({
+  'base': {
+    'driver': 'file',
+    'path': '/Users/ayush/Desktop/event-ssm/outputs/2024-11-08-12-31-56/checkpoints/checkpoint_1270.orbax-checkpoint-tmp-12/',
+  },
+  'cache_pool': 'cache_pool#ocdbt',
+  'config': {
+    'compression': {'id': 'zstd'},
+    'max_decoded_node_bytes': 100000000,
+    'max_inline_value_bytes': 1024,
+    'uuid': 'f35c3d07b04eca9ae919cb898594fc02',
+    'version_tree_arity_log2': 4,
+  },
+  'context': {
+    'cache_pool#ocdbt': {'total_bytes_limit': 100000000},
+    'data_copy_concurrency': {},
+    'file_io_concurrency': {'limit': 128},
+    'file_io_sync': True,
+    'ocdbt_coordinator': {},
+  },
+  'driver': 'ocdbt',
+  'experimental_read_coalescing_interval': '1ms',
+  'experimental_read_coalescing_merged_bytes': 500000000000,
+  'experimental_read_coalescing_threshold_bytes': 1000000,
+}).
+[2024-11-08 15:25:41,027][absl][INFO] - Renaming /Users/ayush/Desktop/event-ssm/outputs/2024-11-08-12-31-56/checkpoints/checkpoint_1270.orbax-checkpoint-tmp-12 to /Users/ayush/Desktop/event-ssm/outputs/2024-11-08-12-31-56/checkpoints/checkpoint_1270
+[2024-11-08 15:25:41,028][absl][INFO] - [process=0][thread=MainThread] Finished saving checkpoint (finalized tmp dir) to `/Users/ayush/Desktop/event-ssm/outputs/2024-11-08-12-31-56/checkpoints/checkpoint_1270`.
+[2024-11-08 15:25:41,028][absl][INFO] - [process=0][thread=MainThread] Skipping global process sync, barrier name: Checkpointer:finalize.checkpoint_1270
+[2024-11-08 15:25:41,030][absl][INFO] - Removing checkpoint at /Users/ayush/Desktop/event-ssm/outputs/2024-11-08-12-31-56/checkpoints/checkpoint_1016
+WARNING:absl:Tensorflow library not found, tensorflow.io.gfile operations will use native shim calls. GCS paths (i.e. 'gs://...') cannot be accessed.
+WARNING:absl:Tensorflow library not found, tensorflow.io.gfile operations will use native shim calls. GCS paths (i.e. 'gs://...') cannot be accessed.
+WARNING:absl:Tensorflow library not found, tensorflow.io.gfile operations will use native shim calls. GCS paths (i.e. 'gs://...') cannot be accessed.
+WARNING:absl:Tensorflow library not found, tensorflow.io.gfile operations will use native shim calls. GCS paths (i.e. 'gs://...') cannot be accessed.
+/Users/ayush/Desktop/event-ssm/.venv/lib/python3.9/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+/Users/ayush/Desktop/event-ssm/.venv/lib/python3.9/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+/Users/ayush/Desktop/event-ssm/.venv/lib/python3.9/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+/Users/ayush/Desktop/event-ssm/.venv/lib/python3.9/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+-----------------------------------------------------------------------------------------
+| end of epoch   6 | time per epoch: 7145.58s |
+| Train Metrics | accuracy:  0.83 | loss:  0.75
+WARNING:absl:Tensorflow library not found, tensorflow.io.gfile operations will use native shim calls. GCS paths (i.e. 'gs://...') cannot be accessed.
+WARNING:absl:Tensorflow library not found, tensorflow.io.gfile operations will use native shim calls. GCS paths (i.e. 'gs://...') cannot be accessed.
+WARNING:absl:Tensorflow library not found, tensorflow.io.gfile operations will use native shim calls. GCS paths (i.e. 'gs://...') cannot be accessed.
+WARNING:absl:Tensorflow library not found, tensorflow.io.gfile operations will use native shim calls. GCS paths (i.e. 'gs://...') cannot be accessed.
+/Users/ayush/Desktop/event-ssm/.venv/lib/python3.9/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+/Users/ayush/Desktop/event-ssm/.venv/lib/python3.9/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+/Users/ayush/Desktop/event-ssm/.venv/lib/python3.9/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+/Users/ayush/Desktop/event-ssm/.venv/lib/python3.9/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+| Eval  Metrics | accuracy:  0.89 | loss:  0.31
+-----------------------------------------------------------------------------------------
+[2024-11-08 17:30:34,622][absl][INFO] - Saving checkpoint at step: 1524
+[2024-11-08 17:30:34,623][absl][INFO] - Using Orbax as backend to save Flax checkpoints. For potential troubleshooting see: https://flax.readthedocs.io/en/latest/guides/training_techniques/use_checkpointing.html#orbax-as-backend-troubleshooting
+[2024-11-08 17:30:34,626][absl][INFO] - [process=0] Started saving checkpoint to /Users/ayush/Desktop/event-ssm/outputs/2024-11-08-12-31-56/checkpoints/checkpoint_1524.
+[2024-11-08 17:30:34,627][absl][INFO] - [process=0][thread=MainThread] Skipping global process sync, barrier name: create_tmp_directory:pre.checkpoint_1524.16
+[2024-11-08 17:30:34,627][absl][INFO] - Creating tmp directory /Users/ayush/Desktop/event-ssm/outputs/2024-11-08-12-31-56/checkpoints/checkpoint_1524.orbax-checkpoint-tmp-15
+[2024-11-08 17:30:34,628][absl][INFO] - [process=0][thread=MainThread] Skipping global process sync, barrier name: create_tmp_directory:post.checkpoint_1524.17
+[2024-11-08 17:30:34,675][absl][INFO] - [process=0] /jax/checkpoint/write/blocking_bytes_per_sec: 140.5 MiB/s (total bytes: 6.5 MiB) (time elapsed: 46 milliseconds) (per-host)
+[2024-11-08 17:30:34,751][absl][INFO] - ChainedFuture completed 2/2 futures in 0.07 seconds.
+[2024-11-08 17:30:34,751][absl][INFO] - [process=0] /jax/checkpoint/write/bytes_per_sec: 52.8 MiB/s (total bytes: 6.5 MiB) (time elapsed: 122 milliseconds) (per-host)
+[2024-11-08 17:30:34,751][absl][INFO] - [process=0][thread=MainThread] Skipping global process sync, barrier name: Checkpointer:save.checkpoint_1524
+[2024-11-08 17:30:34,759][absl][INFO] - [process=0][thread=MainThread] Validating params (raw input=534, unique=267) in TensorStore KvStore: KvStore({
+  'base': {
+    'driver': 'file',
+    'path': '/Users/ayush/Desktop/event-ssm/outputs/2024-11-08-12-31-56/checkpoints/checkpoint_1524.orbax-checkpoint-tmp-15/',
+  },
+  'cache_pool': 'cache_pool#ocdbt',
+  'config': {
+    'compression': {'id': 'zstd'},
+    'max_decoded_node_bytes': 100000000,
+    'max_inline_value_bytes': 1024,
+    'uuid': 'f26f493fab49c26d591104f30da66ce5',
+    'version_tree_arity_log2': 4,
+  },
+  'context': {
+    'cache_pool#ocdbt': {'total_bytes_limit': 100000000},
+    'data_copy_concurrency': {},
+    'file_io_concurrency': {'limit': 128},
+    'file_io_sync': True,
+    'ocdbt_coordinator': {},
+  },
+  'driver': 'ocdbt',
+  'experimental_read_coalescing_interval': '1ms',
+  'experimental_read_coalescing_merged_bytes': 500000000000,
+  'experimental_read_coalescing_threshold_bytes': 1000000,
+}).
+[2024-11-08 17:30:34,760][absl][INFO] - Renaming /Users/ayush/Desktop/event-ssm/outputs/2024-11-08-12-31-56/checkpoints/checkpoint_1524.orbax-checkpoint-tmp-15 to /Users/ayush/Desktop/event-ssm/outputs/2024-11-08-12-31-56/checkpoints/checkpoint_1524
+[2024-11-08 17:30:34,761][absl][INFO] - [process=0][thread=MainThread] Finished saving checkpoint (finalized tmp dir) to `/Users/ayush/Desktop/event-ssm/outputs/2024-11-08-12-31-56/checkpoints/checkpoint_1524`.
+[2024-11-08 17:30:34,761][absl][INFO] - [process=0][thread=MainThread] Skipping global process sync, barrier name: Checkpointer:finalize.checkpoint_1524
+[2024-11-08 17:30:34,761][absl][INFO] - Removing checkpoint at /Users/ayush/Desktop/event-ssm/outputs/2024-11-08-12-31-56/checkpoints/checkpoint_1270
+WARNING:absl:Tensorflow library not found, tensorflow.io.gfile operations will use native shim calls. GCS paths (i.e. 'gs://...') cannot be accessed.
+WARNING:absl:Tensorflow library not found, tensorflow.io.gfile operations will use native shim calls. GCS paths (i.e. 'gs://...') cannot be accessed.
+WARNING:absl:Tensorflow library not found, tensorflow.io.gfile operations will use native shim calls. GCS paths (i.e. 'gs://...') cannot be accessed.
+WARNING:absl:Tensorflow library not found, tensorflow.io.gfile operations will use native shim calls. GCS paths (i.e. 'gs://...') cannot be accessed.
+/Users/ayush/Desktop/event-ssm/.venv/lib/python3.9/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+/Users/ayush/Desktop/event-ssm/.venv/lib/python3.9/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+/Users/ayush/Desktop/event-ssm/.venv/lib/python3.9/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+/Users/ayush/Desktop/event-ssm/.venv/lib/python3.9/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+-----------------------------------------------------------------------------------------
+[2024-11-08 17:30:34,623][absl][INFO] - Using Orbax as backend to save Flax checkpoints. For potential troubleshooting see: https://flax.readthedocs.io/en/latest/guides/training_techniques/use_checkpointing.html#orbax-as-backend-troubleshooting
+[2024-11-08 17:30:34,626][absl][INFO] - [process=0] Started saving checkpoint to /Users/ayush/Desktop/event-ssm/outputs/2024-11-08-12-31-56/checkpoints/checkpoint_1524.
+[2024-11-08 17:30:34,627][absl][INFO] - [process=0][thread=MainThread] Skipping global process sync, barrier name: create_tmp_directory:pre.checkpoint_1524.16
+[2024-11-08 17:30:34,627][absl][INFO] - Creating tmp directory /Users/ayush/Desktop/event-ssm/outputs/2024-11-08-12-31-56/checkpoints/checkpoint_1524.orbax-checkpoint-tmp-15
+[2024-11-08 17:30:34,628][absl][INFO] - [process=0][thread=MainThread] Skipping global process sync, barrier name: create_tmp_directory:post.checkpoint_1524.17
+[2024-11-08 17:30:34,675][absl][INFO] - [process=0] /jax/checkpoint/write/blocking_bytes_per_sec: 140.5 MiB/s (total bytes: 6.5 MiB) (time elapsed: 46 milliseconds) (per-host)
+[2024-11-08 17:30:34,751][absl][INFO] - ChainedFuture completed 2/2 futures in 0.07 seconds.
+[2024-11-08 17:30:34,751][absl][INFO] - [process=0] /jax/checkpoint/write/bytes_per_sec: 52.8 MiB/s (total bytes: 6.5 MiB) (time elapsed: 122 milliseconds) (per-host)
+[2024-11-08 17:30:34,751][absl][INFO] - [process=0][thread=MainThread] Skipping global process sync, barrier name: Checkpointer:save.checkpoint_1524
+[2024-11-08 17:30:34,759][absl][INFO] - [process=0][thread=MainThread] Validating params (raw input=534, unique=267) in TensorStore KvStore: KvStore({
+  'base': {
+    'driver': 'file',
+    'path': '/Users/ayush/Desktop/event-ssm/outputs/2024-11-08-12-31-56/checkpoints/checkpoint_1524.orbax-checkpoint-tmp-15/',
+  },
+  'cache_pool': 'cache_pool#ocdbt',
+  'config': {
+    'compression': {'id': 'zstd'},
+    'max_decoded_node_bytes': 100000000,
+    'max_inline_value_bytes': 1024,
+    'uuid': 'f26f493fab49c26d591104f30da66ce5',
+    'version_tree_arity_log2': 4,
+  },
+  'context': {
+    'cache_pool#ocdbt': {'total_bytes_limit': 100000000},
+    'data_copy_concurrency': {},
+    'file_io_concurrency': {'limit': 128},
+    'file_io_sync': True,
+    'ocdbt_coordinator': {},
+  },
+  'driver': 'ocdbt',
+  'experimental_read_coalescing_interval': '1ms',
+  'experimental_read_coalescing_merged_bytes': 500000000000,
+  'experimental_read_coalescing_threshold_bytes': 1000000,
+}).
+[2024-11-08 17:30:34,760][absl][INFO] - Renaming /Users/ayush/Desktop/event-ssm/outputs/2024-11-08-12-31-56/checkpoints/checkpoint_1524.orbax-checkpoint-tmp-15 to /Users/ayush/Desktop/event-ssm/outputs/2024-11-08-12-31-56/checkpoints/checkpoint_1524
+[2024-11-08 17:30:34,761][absl][INFO] - [process=0][thread=MainThread] Finished saving checkpoint (finalized tmp dir) to `/Users/ayush/Desktop/event-ssm/outputs/2024-11-08-12-31-56/checkpoints/checkpoint_1524`.
+[2024-11-08 17:30:34,761][absl][INFO] - [process=0][thread=MainThread] Skipping global process sync, barrier name: Checkpointer:finalize.checkpoint_1524
+[2024-11-08 17:30:34,761][absl][INFO] - Removing checkpoint at /Users/ayush/Desktop/event-ssm/outputs/2024-11-08-12-31-56/checkpoints/checkpoint_1270
+WARNING:absl:Tensorflow library not found, tensorflow.io.gfile operations will use native shim calls. GCS paths (i.e. 'gs://...') cannot be accessed.
+WARNING:absl:Tensorflow library not found, tensorflow.io.gfile operations will use native shim calls. GCS paths (i.e. 'gs://...') cannot be accessed.
+WARNING:absl:Tensorflow library not found, tensorflow.io.gfile operations will use native shim calls. GCS paths (i.e. 'gs://...') cannot be accessed.
+WARNING:absl:Tensorflow library not found, tensorflow.io.gfile operations will use native shim calls. GCS paths (i.e. 'gs://...') cannot be accessed.
+/Users/ayush/Desktop/event-ssm/.venv/lib/python3.9/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+/Users/ayush/Desktop/event-ssm/.venv/lib/python3.9/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+/Users/ayush/Desktop/event-ssm/.venv/lib/python3.9/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+/Users/ayush/Desktop/event-ssm/.venv/lib/python3.9/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+-----------------------------------------------------------------------------------------
+| end of epoch   7 | time per epoch: 1840.53s |
+| Train Metrics | accuracy:  0.84 | loss:  0.74
+WARNING:absl:Tensorflow library not found, tensorflow.io.gfile operations will use native shim calls. GCS paths (i.e. 'gs://...') cannot be accessed.
+WARNING:absl:Tensorflow library not found, tensorflow.io.gfile operations will use native shim calls. GCS paths (i.e. 'gs://...') cannot be accessed.
+WARNING:absl:Tensorflow library not found, tensorflow.io.gfile operations will use native shim calls. GCS paths (i.e. 'gs://...') cannot be accessed.
+WARNING:absl:Tensorflow library not found, tensorflow.io.gfile operations will use native shim calls. GCS paths (i.e. 'gs://...') cannot be accessed.
+/Users/ayush/Desktop/event-ssm/.venv/lib/python3.9/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+/Users/ayush/Desktop/event-ssm/.venv/lib/python3.9/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+/Users/ayush/Desktop/event-ssm/.venv/lib/python3.9/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+/Users/ayush/Desktop/event-ssm/.venv/lib/python3.9/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+| Eval  Metrics | accuracy:  0.87 | loss:  0.39
+-----------------------------------------------------------------------------------------
+WARNING:absl:Tensorflow library not found, tensorflow.io.gfile operations will use native shim calls. GCS paths (i.e. 'gs://...') cannot be accessed.
+WARNING:absl:Tensorflow library not found, tensorflow.io.gfile operations will use native shim calls. GCS paths (i.e. 'gs://...') cannot be accessed.
+WARNING:absl:Tensorflow library not found, tensorflow.io.gfile operations will use native shim calls. GCS paths (i.e. 'gs://...') cannot be accessed.
+WARNING:absl:Tensorflow library not found, tensorflow.io.gfile operations will use native shim calls. GCS paths (i.e. 'gs://...') cannot be accessed.
+/Users/ayush/Desktop/event-ssm/.venv/lib/python3.9/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+/Users/ayush/Desktop/event-ssm/.venv/lib/python3.9/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+/Users/ayush/Desktop/event-ssm/.venv/lib/python3.9/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+/Users/ayush/Desktop/event-ssm/.venv/lib/python3.9/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+-----------------------------------------------------------------------------------------
+| end of epoch   8 | time per epoch: 1084.51s |
+| Train Metrics | accuracy:  0.85 | loss:  0.66
+WARNING:absl:Tensorflow library not found, tensorflow.io.gfile operations will use native shim calls. GCS paths (i.e. 'gs://...') cannot be accessed.
+WARNING:absl:Tensorflow library not found, tensorflow.io.gfile operations will use native shim calls. GCS paths (i.e. 'gs://...') cannot be accessed.
+WARNING:absl:Tensorflow library not found, tensorflow.io.gfile operations will use native shim calls. GCS paths (i.e. 'gs://...') cannot be accessed.
+WARNING:absl:Tensorflow library not found, tensorflow.io.gfile operations will use native shim calls. GCS paths (i.e. 'gs://...') cannot be accessed.
+/Users/ayush/Desktop/event-ssm/.venv/lib/python3.9/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+/Users/ayush/Desktop/event-ssm/.venv/lib/python3.9/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+/Users/ayush/Desktop/event-ssm/.venv/lib/python3.9/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+/Users/ayush/Desktop/event-ssm/.venv/lib/python3.9/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+| Eval  Metrics | accuracy:  0.90 | loss:  0.28
+-----------------------------------------------------------------------------------------
+[2024-11-08 18:29:04,477][absl][INFO] - Saving checkpoint at step: 2032
+[2024-11-08 18:29:04,484][absl][INFO] - Using Orbax as backend to save Flax checkpoints. For potential troubleshooting see: https://flax.readthedocs.io/en/latest/guides/training_techniques/use_checkpointing.html#orbax-as-backend-troubleshooting
+[2024-11-08 18:29:04,515][absl][INFO] - [process=0] Started saving checkpoint to /Users/ayush/Desktop/event-ssm/outputs/2024-11-08-12-31-56/checkpoints/checkpoint_2032.
+[2024-11-08 18:29:04,523][absl][INFO] - [process=0][thread=MainThread] Skipping global process sync, barrier name: create_tmp_directory:pre.checkpoint_2032.19
+[2024-11-08 18:29:04,527][absl][INFO] - Creating tmp directory /Users/ayush/Desktop/event-ssm/outputs/2024-11-08-12-31-56/checkpoints/checkpoint_2032.orbax-checkpoint-tmp-18
+[2024-11-08 18:29:04,530][absl][INFO] - [process=0][thread=MainThread] Skipping global process sync, barrier name: create_tmp_directory:post.checkpoint_2032.20
+[2024-11-08 18:29:04,633][absl][INFO] - [process=0] /jax/checkpoint/write/blocking_bytes_per_sec: 64.0 MiB/s (total bytes: 6.5 MiB) (time elapsed: 101 milliseconds) (per-host)
+[2024-11-08 18:29:04,754][absl][INFO] - ChainedFuture completed 2/2 futures in 0.10 seconds.
+[2024-11-08 18:29:04,754][absl][INFO] - [process=0] /jax/checkpoint/write/bytes_per_sec: 29.0 MiB/s (total bytes: 6.5 MiB) (time elapsed: 222 milliseconds) (per-host)
+[2024-11-08 18:29:04,754][absl][INFO] - [process=0][thread=MainThread] Skipping global process sync, barrier name: Checkpointer:save.checkpoint_2032
+[2024-11-08 18:29:04,761][absl][INFO] - [process=0][thread=MainThread] Validating params (raw input=534, unique=267) in TensorStore KvStore: KvStore({
+  'base': {
+    'driver': 'file',
+    'path': '/Users/ayush/Desktop/event-ssm/outputs/2024-11-08-12-31-56/checkpoints/checkpoint_2032.orbax-checkpoint-tmp-18/',
+  },
+  'cache_pool': 'cache_pool#ocdbt',
+  'config': {
+    'compression': {'id': 'zstd'},
+    'max_decoded_node_bytes': 100000000,
+    'max_inline_value_bytes': 1024,
+    'uuid': '956a08e62aa2f228f1e2cc5e18ecb057',
+    'version_tree_arity_log2': 4,
+  },
+  'context': {
+    'cache_pool#ocdbt': {'total_bytes_limit': 100000000},
+    'data_copy_concurrency': {},
+    'file_io_concurrency': {'limit': 128},
+    'file_io_sync': True,
+    'ocdbt_coordinator': {},
+  },
+  'driver': 'ocdbt',
+  'experimental_read_coalescing_interval': '1ms',
+  'experimental_read_coalescing_merged_bytes': 500000000000,
+  'experimental_read_coalescing_threshold_bytes': 1000000,
+}).
+[2024-11-08 18:29:04,762][absl][INFO] - Renaming /Users/ayush/Desktop/event-ssm/outputs/2024-11-08-12-31-56/checkpoints/checkpoint_2032.orbax-checkpoint-tmp-18 to /Users/ayush/Desktop/event-ssm/outputs/2024-11-08-12-31-56/checkpoints/checkpoint_2032
+[2024-11-08 18:29:04,763][absl][INFO] - [process=0][thread=MainThread] Finished saving checkpoint (finalized tmp dir) to `/Users/ayush/Desktop/event-ssm/outputs/2024-11-08-12-31-56/checkpoints/checkpoint_2032`.
+[2024-11-08 18:29:04,763][absl][INFO] - [process=0][thread=MainThread] Skipping global process sync, barrier name: Checkpointer:finalize.checkpoint_2032
+[2024-11-08 18:29:04,764][absl][INFO] - Removing checkpoint at /Users/ayush/Desktop/event-ssm/outputs/2024-11-08-12-31-56/checkpoints/checkpoint_1524
+WARNING:absl:Tensorflow library not found, tensorflow.io.gfile operations will use native shim calls. GCS paths (i.e. 'gs://...') cannot be accessed.
+WARNING:absl:Tensorflow library not found, tensorflow.io.gfile operations will use native shim calls. GCS paths (i.e. 'gs://...') cannot be accessed.
+WARNING:absl:Tensorflow library not found, tensorflow.io.gfile operations will use native shim calls. GCS paths (i.e. 'gs://...') cannot be accessed.
+WARNING:absl:Tensorflow library not found, tensorflow.io.gfile operations will use native shim calls. GCS paths (i.e. 'gs://...') cannot be accessed.
+/Users/ayush/Desktop/event-ssm/.venv/lib/python3.9/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+/Users/ayush/Desktop/event-ssm/.venv/lib/python3.9/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+/Users/ayush/Desktop/event-ssm/.venv/lib/python3.9/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+/Users/ayush/Desktop/event-ssm/.venv/lib/python3.9/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+[2024-11-08 18:29:04,530][absl][INFO] - [process=0][thread=MainThread] Skipping global process sync, barrier name: create_tmp_directory:post.checkpoint_2032.20
+[2024-11-08 18:29:04,633][absl][INFO] - [process=0] /jax/checkpoint/write/blocking_bytes_per_sec: 64.0 MiB/s (total bytes: 6.5 MiB) (time elapsed: 101 milliseconds) (per-host)
+[2024-11-08 18:29:04,754][absl][INFO] - ChainedFuture completed 2/2 futures in 0.10 seconds.
+[2024-11-08 18:29:04,754][absl][INFO] - [process=0] /jax/checkpoint/write/bytes_per_sec: 29.0 MiB/s (total bytes: 6.5 MiB) (time elapsed: 222 milliseconds) (per-host)
+[2024-11-08 18:29:04,754][absl][INFO] - [process=0][thread=MainThread] Skipping global process sync, barrier name: Checkpointer:save.checkpoint_2032
+[2024-11-08 18:29:04,761][absl][INFO] - [process=0][thread=MainThread] Validating params (raw input=534, unique=267) in TensorStore KvStore: KvStore({
+  'base': {
+    'driver': 'file',
+    'path': '/Users/ayush/Desktop/event-ssm/outputs/2024-11-08-12-31-56/checkpoints/checkpoint_2032.orbax-checkpoint-tmp-18/',
+  },
+  'cache_pool': 'cache_pool#ocdbt',
+  'config': {
+    'compression': {'id': 'zstd'},
+    'max_decoded_node_bytes': 100000000,
+    'max_inline_value_bytes': 1024,
+    'uuid': '956a08e62aa2f228f1e2cc5e18ecb057',
+    'version_tree_arity_log2': 4,
+  },
+  'context': {
+    'cache_pool#ocdbt': {'total_bytes_limit': 100000000},
+    'data_copy_concurrency': {},
+    'file_io_concurrency': {'limit': 128},
+    'file_io_sync': True,
+    'ocdbt_coordinator': {},
+  },
+  'driver': 'ocdbt',
+  'experimental_read_coalescing_interval': '1ms',
+  'experimental_read_coalescing_merged_bytes': 500000000000,
+  'experimental_read_coalescing_threshold_bytes': 1000000,
+}).
+[2024-11-08 18:29:04,762][absl][INFO] - Renaming /Users/ayush/Desktop/event-ssm/outputs/2024-11-08-12-31-56/checkpoints/checkpoint_2032.orbax-checkpoint-tmp-18 to /Users/ayush/Desktop/event-ssm/outputs/2024-11-08-12-31-56/checkpoints/checkpoint_2032
+[2024-11-08 18:29:04,763][absl][INFO] - [process=0][thread=MainThread] Finished saving checkpoint (finalized tmp dir) to `/Users/ayush/Desktop/event-ssm/outputs/2024-11-08-12-31-56/checkpoints/checkpoint_2032`.
+[2024-11-08 18:29:04,763][absl][INFO] - [process=0][thread=MainThread] Skipping global process sync, barrier name: Checkpointer:finalize.checkpoint_2032
+[2024-11-08 18:29:04,764][absl][INFO] - Removing checkpoint at /Users/ayush/Desktop/event-ssm/outputs/2024-11-08-12-31-56/checkpoints/checkpoint_1524
+WARNING:absl:Tensorflow library not found, tensorflow.io.gfile operations will use native shim calls. GCS paths (i.e. 'gs://...') cannot be accessed.
+WARNING:absl:Tensorflow library not found, tensorflow.io.gfile operations will use native shim calls. GCS paths (i.e. 'gs://...') cannot be accessed.
+WARNING:absl:Tensorflow library not found, tensorflow.io.gfile operations will use native shim calls. GCS paths (i.e. 'gs://...') cannot be accessed.
+WARNING:absl:Tensorflow library not found, tensorflow.io.gfile operations will use native shim calls. GCS paths (i.e. 'gs://...') cannot be accessed.
+/Users/ayush/Desktop/event-ssm/.venv/lib/python3.9/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+/Users/ayush/Desktop/event-ssm/.venv/lib/python3.9/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+/Users/ayush/Desktop/event-ssm/.venv/lib/python3.9/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+/Users/ayush/Desktop/event-ssm/.venv/lib/python3.9/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+-----------------------------------------------------------------------------------------
+| end of epoch   9 | time per epoch: 1103.99s |
+| Train Metrics | accuracy:  0.86 | loss:  0.65
+WARNING:absl:Tensorflow library not found, tensorflow.io.gfile operations will use native shim calls. GCS paths (i.e. 'gs://...') cannot be accessed.
+WARNING:absl:Tensorflow library not found, tensorflow.io.gfile operations will use native shim calls. GCS paths (i.e. 'gs://...') cannot be accessed.
+WARNING:absl:Tensorflow library not found, tensorflow.io.gfile operations will use native shim calls. GCS paths (i.e. 'gs://...') cannot be accessed.
+WARNING:absl:Tensorflow library not found, tensorflow.io.gfile operations will use native shim calls. GCS paths (i.e. 'gs://...') cannot be accessed.
+/Users/ayush/Desktop/event-ssm/.venv/lib/python3.9/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+/Users/ayush/Desktop/event-ssm/.venv/lib/python3.9/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+/Users/ayush/Desktop/event-ssm/.venv/lib/python3.9/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+/Users/ayush/Desktop/event-ssm/.venv/lib/python3.9/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+| Eval  Metrics | accuracy:  0.90 | loss:  0.33
+-----------------------------------------------------------------------------------------
+WARNING:absl:Tensorflow library not found, tensorflow.io.gfile operations will use native shim calls. GCS paths (i.e. 'gs://...') cannot be accessed.
+WARNING:absl:Tensorflow library not found, tensorflow.io.gfile operations will use native shim calls. GCS paths (i.e. 'gs://...') cannot be accessed.
+WARNING:absl:Tensorflow library not found, tensorflow.io.gfile operations will use native shim calls. GCS paths (i.e. 'gs://...') cannot be accessed.
+WARNING:absl:Tensorflow library not found, tensorflow.io.gfile operations will use native shim calls. GCS paths (i.e. 'gs://...') cannot be accessed.
+/Users/ayush/Desktop/event-ssm/.venv/lib/python3.9/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+/Users/ayush/Desktop/event-ssm/.venv/lib/python3.9/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+/Users/ayush/Desktop/event-ssm/.venv/lib/python3.9/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+/Users/ayush/Desktop/event-ssm/.venv/lib/python3.9/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+-----------------------------------------------------------------------------------------
+| end of epoch  10 | time per epoch: 1082.42s |
+| Train Metrics | accuracy:  0.87 | loss:  0.61
+WARNING:absl:Tensorflow library not found, tensorflow.io.gfile operations will use native shim calls. GCS paths (i.e. 'gs://...') cannot be accessed.
+WARNING:absl:Tensorflow library not found, tensorflow.io.gfile operations will use native shim calls. GCS paths (i.e. 'gs://...') cannot be accessed.
+WARNING:absl:Tensorflow library not found, tensorflow.io.gfile operations will use native shim calls. GCS paths (i.e. 'gs://...') cannot be accessed.
+WARNING:absl:Tensorflow library not found, tensorflow.io.gfile operations will use native shim calls. GCS paths (i.e. 'gs://...') cannot be accessed.
+/Users/ayush/Desktop/event-ssm/.venv/lib/python3.9/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+/Users/ayush/Desktop/event-ssm/.venv/lib/python3.9/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+/Users/ayush/Desktop/event-ssm/.venv/lib/python3.9/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+/Users/ayush/Desktop/event-ssm/.venv/lib/python3.9/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+| Eval  Metrics | accuracy:  0.88 | loss:  0.32
+-----------------------------------------------------------------------------------------
+WARNING:absl:Tensorflow library not found, tensorflow.io.gfile operations will use native shim calls. GCS paths (i.e. 'gs://...') cannot be accessed.
+WARNING:absl:Tensorflow library not found, tensorflow.io.gfile operations will use native shim calls. GCS paths (i.e. 'gs://...') cannot be accessed.
+WARNING:absl:Tensorflow library not found, tensorflow.io.gfile operations will use native shim calls. GCS paths (i.e. 'gs://...') cannot be accessed.
+WARNING:absl:Tensorflow library not found, tensorflow.io.gfile operations will use native shim calls. GCS paths (i.e. 'gs://...') cannot be accessed.
+/Users/ayush/Desktop/event-ssm/.venv/lib/python3.9/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+/Users/ayush/Desktop/event-ssm/.venv/lib/python3.9/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+/Users/ayush/Desktop/event-ssm/.venv/lib/python3.9/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+/Users/ayush/Desktop/event-ssm/.venv/lib/python3.9/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+-----------------------------------------------------------------------------------------
+| end of epoch  11 | time per epoch: 1098.30s |
+| Train Metrics | accuracy:  0.87 | loss:  0.62
+WARNING:absl:Tensorflow library not found, tensorflow.io.gfile operations will use native shim calls. GCS paths (i.e. 'gs://...') cannot be accessed.
+WARNING:absl:Tensorflow library not found, tensorflow.io.gfile operations will use native shim calls. GCS paths (i.e. 'gs://...') cannot be accessed.
+WARNING:absl:Tensorflow library not found, tensorflow.io.gfile operations will use native shim calls. GCS paths (i.e. 'gs://...') cannot be accessed.
+WARNING:absl:Tensorflow library not found, tensorflow.io.gfile operations will use native shim calls. GCS paths (i.e. 'gs://...') cannot be accessed.
+/Users/ayush/Desktop/event-ssm/.venv/lib/python3.9/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+/Users/ayush/Desktop/event-ssm/.venv/lib/python3.9/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+/Users/ayush/Desktop/event-ssm/.venv/lib/python3.9/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+/Users/ayush/Desktop/event-ssm/.venv/lib/python3.9/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+| Eval  Metrics | accuracy:  0.87 | loss:  0.35
+-----------------------------------------------------------------------------------------
+WARNING:absl:Tensorflow library not found, tensorflow.io.gfile operations will use native shim calls. GCS paths (i.e. 'gs://...') cannot be accessed.
+WARNING:absl:Tensorflow library not found, tensorflow.io.gfile operations will use native shim calls. GCS paths (i.e. 'gs://...') cannot be accessed.
+WARNING:absl:Tensorflow library not found, tensorflow.io.gfile operations will use native shim calls. GCS paths (i.e. 'gs://...') cannot be accessed.
+WARNING:absl:Tensorflow library not found, tensorflow.io.gfile operations will use native shim calls. GCS paths (i.e. 'gs://...') cannot be accessed.
+/Users/ayush/Desktop/event-ssm/.venv/lib/python3.9/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+/Users/ayush/Desktop/event-ssm/.venv/lib/python3.9/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+/Users/ayush/Desktop/event-ssm/.venv/lib/python3.9/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+/Users/ayush/Desktop/event-ssm/.venv/lib/python3.9/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+-----------------------------------------------------------------------------------------
+| end of epoch  12 | time per epoch: 1060.74s |
+| Train Metrics | accuracy:  0.89 | loss:  0.53
+WARNING:absl:Tensorflow library not found, tensorflow.io.gfile operations will use native shim calls. GCS paths (i.e. 'gs://...') cannot be accessed.
+WARNING:absl:Tensorflow library not found, tensorflow.io.gfile operations will use native shim calls. GCS paths (i.e. 'gs://...') cannot be accessed.
+WARNING:absl:Tensorflow library not found, tensorflow.io.gfile operations will use native shim calls. GCS paths (i.e. 'gs://...') cannot be accessed.
+WARNING:absl:Tensorflow library not found, tensorflow.io.gfile operations will use native shim calls. GCS paths (i.e. 'gs://...') cannot be accessed.
+/Users/ayush/Desktop/event-ssm/.venv/lib/python3.9/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+/Users/ayush/Desktop/event-ssm/.venv/lib/python3.9/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+/Users/ayush/Desktop/event-ssm/.venv/lib/python3.9/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+/Users/ayush/Desktop/event-ssm/.venv/lib/python3.9/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+| Eval  Metrics | accuracy:  0.91 | loss:  0.28
+-----------------------------------------------------------------------------------------
+[2024-11-08 19:57:46,505][absl][INFO] - Saving checkpoint at step: 3048
+[2024-11-08 19:57:46,507][absl][INFO] - Using Orbax as backend to save Flax checkpoints. For potential troubleshooting see: https://flax.readthedocs.io/en/latest/guides/training_techniques/use_checkpointing.html#orbax-as-backend-troubleshooting
+[2024-11-08 19:57:46,522][absl][INFO] - [process=0] Started saving checkpoint to /Users/ayush/Desktop/event-ssm/outputs/2024-11-08-12-31-56/checkpoints/checkpoint_3048.
+[2024-11-08 19:57:46,527][absl][INFO] - [process=0][thread=MainThread] Skipping global process sync, barrier name: create_tmp_directory:pre.checkpoint_3048.22
+[2024-11-08 19:57:46,529][absl][INFO] - Creating tmp directory /Users/ayush/Desktop/event-ssm/outputs/2024-11-08-12-31-56/checkpoints/checkpoint_3048.orbax-checkpoint-tmp-21
+[2024-11-08 19:57:46,531][absl][INFO] - [process=0][thread=MainThread] Skipping global process sync, barrier name: create_tmp_directory:post.checkpoint_3048.23
+[2024-11-08 19:57:46,606][absl][INFO] - [process=0] /jax/checkpoint/write/blocking_bytes_per_sec: 88.0 MiB/s (total bytes: 6.5 MiB) (time elapsed: 73 milliseconds) (per-host)
+[2024-11-08 19:57:46,687][absl][INFO] - ChainedFuture completed 2/2 futures in 0.07 seconds.
+[2024-11-08 19:57:46,687][absl][INFO] - [process=0] /jax/checkpoint/write/bytes_per_sec: 41.8 MiB/s (total bytes: 6.5 MiB) (time elapsed: 154 milliseconds) (per-host)
+[2024-11-08 19:57:46,687][absl][INFO] - [process=0][thread=MainThread] Skipping global process sync, barrier name: Checkpointer:save.checkpoint_3048
+[2024-11-08 19:57:46,696][absl][INFO] - [process=0][thread=MainThread] Validating params (raw input=534, unique=267) in TensorStore KvStore: KvStore({
+  'base': {
+    'driver': 'file',
+    'path': '/Users/ayush/Desktop/event-ssm/outputs/2024-11-08-12-31-56/checkpoints/checkpoint_3048.orbax-checkpoint-tmp-21/',
+  },
+  'cache_pool': 'cache_pool#ocdbt',
+  'config': {
+    'compression': {'id': 'zstd'},
+    'max_decoded_node_bytes': 100000000,
+    'max_inline_value_bytes': 1024,
+    'uuid': '3a9a70f226c9530219ae4063846f3cdc',
+    'version_tree_arity_log2': 4,
+  },
+  'context': {
+    'cache_pool#ocdbt': {'total_bytes_limit': 100000000},
+    'data_copy_concurrency': {},
+    'file_io_concurrency': {'limit': 128},
+    'file_io_sync': True,
+    'ocdbt_coordinator': {},
+  },
+  'driver': 'ocdbt',
+  'experimental_read_coalescing_interval': '1ms',
+  'experimental_read_coalescing_merged_bytes': 500000000000,
+  'experimental_read_coalescing_threshold_bytes': 1000000,
+}).
+[2024-11-08 19:57:46,696][absl][INFO] - Renaming /Users/ayush/Desktop/event-ssm/outputs/2024-11-08-12-31-56/checkpoints/checkpoint_3048.orbax-checkpoint-tmp-21 to /Users/ayush/Desktop/event-ssm/outputs/2024-11-08-12-31-56/checkpoints/checkpoint_3048
+[2024-11-08 19:57:46,697][absl][INFO] - [process=0][thread=MainThread] Finished saving checkpoint (finalized tmp dir) to `/Users/ayush/Desktop/event-ssm/outputs/2024-11-08-12-31-56/checkpoints/checkpoint_3048`.
+[2024-11-08 19:57:46,697][absl][INFO] - [process=0][thread=MainThread] Skipping global process sync, barrier name: Checkpointer:finalize.checkpoint_3048
+[2024-11-08 19:57:46,698][absl][INFO] - Removing checkpoint at /Users/ayush/Desktop/event-ssm/outputs/2024-11-08-12-31-56/checkpoints/checkpoint_2032
+WARNING:absl:Tensorflow library not found, tensorflow.io.gfile operations will use native shim calls. GCS paths (i.e. 'gs://...') cannot be accessed.
+WARNING:absl:Tensorflow library not found, tensorflow.io.gfile operations will use native shim calls. GCS paths (i.e. 'gs://...') cannot be accessed.
+WARNING:absl:Tensorflow library not found, tensorflow.io.gfile operations will use native shim calls. GCS paths (i.e. 'gs://...') cannot be accessed.
+WARNING:absl:Tensorflow library not found, tensorflow.io.gfile operations will use native shim calls. GCS paths (i.e. 'gs://...') cannot be accessed.
+/Users/ayush/Desktop/event-ssm/.venv/lib/python3.9/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+/Users/ayush/Desktop/event-ssm/.venv/lib/python3.9/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+/Users/ayush/Desktop/event-ssm/.venv/lib/python3.9/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+/Users/ayush/Desktop/event-ssm/.venv/lib/python3.9/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+-----------------------------------------------------------------------------------------
+| end of epoch  13 | time per epoch: 1047.49s |
+| Train Metrics | accuracy:  0.88 | loss:  0.58
+WARNING:absl:Tensorflow library not found, tensorflow.io.gfile operations will use native shim calls. GCS paths (i.e. 'gs://...') cannot be accessed.
+WARNING:absl:Tensorflow library not found, tensorflow.io.gfile operations will use native shim calls. GCS paths (i.e. 'gs://...') cannot be accessed.
+WARNING:absl:Tensorflow library not found, tensorflow.io.gfile operations will use native shim calls. GCS paths (i.e. 'gs://...') cannot be accessed.
+WARNING:absl:Tensorflow library not found, tensorflow.io.gfile operations will use native shim calls. GCS paths (i.e. 'gs://...') cannot be accessed.
+/Users/ayush/Desktop/event-ssm/.venv/lib/python3.9/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+/Users/ayush/Desktop/event-ssm/.venv/lib/python3.9/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+/Users/ayush/Desktop/event-ssm/.venv/lib/python3.9/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+/Users/ayush/Desktop/event-ssm/.venv/lib/python3.9/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+| Eval  Metrics | accuracy:  0.92 | loss:  0.26
+-----------------------------------------------------------------------------------------
+[2024-11-08 20:18:49,923][absl][INFO] - Saving checkpoint at step: 3302
+[2024-11-08 20:18:49,924][absl][INFO] - Using Orbax as backend to save Flax checkpoints. For potential troubleshooting see: https://flax.readthedocs.io/en/latest/guides/training_techniques/use_checkpointing.html#orbax-as-backend-troubleshooting
+[2024-11-08 20:18:49,926][absl][INFO] - [process=0] Started saving checkpoint to /Users/ayush/Desktop/event-ssm/outputs/2024-11-08-12-31-56/checkpoints/checkpoint_3302.
+[2024-11-08 20:18:49,927][absl][INFO] - [process=0][thread=MainThread] Skipping global process sync, barrier name: create_tmp_directory:pre.checkpoint_3302.25
+[2024-11-08 20:18:49,928][absl][INFO] - Creating tmp directory /Users/ayush/Desktop/event-ssm/outputs/2024-11-08-12-31-56/checkpoints/checkpoint_3302.orbax-checkpoint-tmp-24
+[2024-11-08 20:18:49,928][absl][INFO] - [process=0][thread=MainThread] Skipping global process sync, barrier name: create_tmp_directory:post.checkpoint_3302.26
+[2024-11-08 20:18:49,954][absl][INFO] - [process=0] /jax/checkpoint/write/blocking_bytes_per_sec: 255.0 MiB/s (total bytes: 6.5 MiB) (time elapsed: 25 milliseconds) (per-host)
+[2024-11-08 20:18:50,038][absl][INFO] - ChainedFuture completed 2/2 futures in 0.07 seconds.
+[2024-11-08 20:18:50,038][absl][INFO] - [process=0] /jax/checkpoint/write/bytes_per_sec: 58.9 MiB/s (total bytes: 6.5 MiB) (time elapsed: 109 milliseconds) (per-host)
+[2024-11-08 20:18:50,039][absl][INFO] - [process=0][thread=MainThread] Skipping global process sync, barrier name: Checkpointer:save.checkpoint_3302
+[2024-11-08 20:18:50,046][absl][INFO] - [process=0][thread=MainThread] Validating params (raw input=534, unique=267) in TensorStore KvStore: KvStore({
+  'base': {
+    'driver': 'file',
+    'path': '/Users/ayush/Desktop/event-ssm/outputs/2024-11-08-12-31-56/checkpoints/checkpoint_3302.orbax-checkpoint-tmp-24/',
+  },
+  'cache_pool': 'cache_pool#ocdbt',
+  'config': {
+    'compression': {'id': 'zstd'},
+    'max_decoded_node_bytes': 100000000,
+    'max_inline_value_bytes': 1024,
+    'uuid': '99be267a19f2e8ba35001fa8148bf93a',
+    'version_tree_arity_log2': 4,
+  },
+  'context': {
+    'cache_pool#ocdbt': {'total_bytes_limit': 100000000},
+    'data_copy_concurrency': {},
+    'file_io_concurrency': {'limit': 128},
+    'file_io_sync': True,
+    'ocdbt_coordinator': {},
+  },
+  'driver': 'ocdbt',
+  'experimental_read_coalescing_interval': '1ms',
+  'experimental_read_coalescing_merged_bytes': 500000000000,
+  'experimental_read_coalescing_threshold_bytes': 1000000,
+}).
+[2024-11-08 20:18:50,046][absl][INFO] - Renaming /Users/ayush/Desktop/event-ssm/outputs/2024-11-08-12-31-56/checkpoints/checkpoint_3302.orbax-checkpoint-tmp-24 to /Users/ayush/Desktop/event-ssm/outputs/2024-11-08-12-31-56/checkpoints/checkpoint_3302
+[2024-11-08 20:18:50,047][absl][INFO] - [process=0][thread=MainThread] Finished saving checkpoint (finalized tmp dir) to `/Users/ayush/Desktop/event-ssm/outputs/2024-11-08-12-31-56/checkpoints/checkpoint_3302`.
+[2024-11-08 20:18:50,047][absl][INFO] - [process=0][thread=MainThread] Skipping global process sync, barrier name: Checkpointer:finalize.checkpoint_3302
+[2024-11-08 20:18:50,047][absl][INFO] - Removing checkpoint at /Users/ayush/Desktop/event-ssm/outputs/2024-11-08-12-31-56/checkpoints/checkpoint_3048
+WARNING:absl:Tensorflow library not found, tensorflow.io.gfile operations will use native shim calls. GCS paths (i.e. 'gs://...') cannot be accessed.
+WARNING:absl:Tensorflow library not found, tensorflow.io.gfile operations will use native shim calls. GCS paths (i.e. 'gs://...') cannot be accessed.
+WARNING:absl:Tensorflow library not found, tensorflow.io.gfile operations will use native shim calls. GCS paths (i.e. 'gs://...') cannot be accessed.
+WARNING:absl:Tensorflow library not found, tensorflow.io.gfile operations will use native shim calls. GCS paths (i.e. 'gs://...') cannot be accessed.
+/Users/ayush/Desktop/event-ssm/.venv/lib/python3.9/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+/Users/ayush/Desktop/event-ssm/.venv/lib/python3.9/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+/Users/ayush/Desktop/event-ssm/.venv/lib/python3.9/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+/Users/ayush/Desktop/event-ssm/.venv/lib/python3.9/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+-----------------------------------------------------------------------------------------
+| end of epoch  14 | time per epoch: 1051.24s |
+| Train Metrics | accuracy:  0.90 | loss:  0.51
+WARNING:absl:Tensorflow library not found, tensorflow.io.gfile operations will use native shim calls. GCS paths (i.e. 'gs://...') cannot be accessed.
+WARNING:absl:Tensorflow library not found, tensorflow.io.gfile operations will use native shim calls. GCS paths (i.e. 'gs://...') cannot be accessed.
+WARNING:absl:Tensorflow library not found, tensorflow.io.gfile operations will use native shim calls. GCS paths (i.e. 'gs://...') cannot be accessed.
+WARNING:absl:Tensorflow library not found, tensorflow.io.gfile operations will use native shim calls. GCS paths (i.e. 'gs://...') cannot be accessed.
+/Users/ayush/Desktop/event-ssm/.venv/lib/python3.9/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+/Users/ayush/Desktop/event-ssm/.venv/lib/python3.9/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+/Users/ayush/Desktop/event-ssm/.venv/lib/python3.9/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+/Users/ayush/Desktop/event-ssm/.venv/lib/python3.9/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+| Eval  Metrics | accuracy:  0.94 | loss:  0.21
+-----------------------------------------------------------------------------------------
+[2024-11-08 20:40:00,104][absl][INFO] - Saving checkpoint at step: 3556
+[2024-11-08 20:40:00,105][absl][INFO] - Using Orbax as backend to save Flax checkpoints. For potential troubleshooting see: https://flax.readthedocs.io/en/latest/guides/training_techniques/use_checkpointing.html#orbax-as-backend-troubleshooting
+[2024-11-08 20:40:00,107][absl][INFO] - [process=0] Started saving checkpoint to /Users/ayush/Desktop/event-ssm/outputs/2024-11-08-12-31-56/checkpoints/checkpoint_3556.
+[2024-11-08 20:40:00,108][absl][INFO] - [process=0][thread=MainThread] Skipping global process sync, barrier name: create_tmp_directory:pre.checkpoint_3556.28
+[2024-11-08 20:40:00,109][absl][INFO] - Creating tmp directory /Users/ayush/Desktop/event-ssm/outputs/2024-11-08-12-31-56/checkpoints/checkpoint_3556.orbax-checkpoint-tmp-27
+[2024-11-08 20:40:00,110][absl][INFO] - [process=0][thread=MainThread] Skipping global process sync, barrier name: create_tmp_directory:post.checkpoint_3556.29
+[2024-11-08 20:40:00,514][absl][INFO] - [process=0] /jax/checkpoint/write/blocking_bytes_per_sec: 16.0 MiB/s (total bytes: 6.5 MiB) (time elapsed: 403 milliseconds) (per-host)
+[2024-11-08 20:40:00,588][absl][INFO] - ChainedFuture completed 2/2 futures in 0.07 seconds.
+[2024-11-08 20:40:00,588][absl][INFO] - [process=0] /jax/checkpoint/write/bytes_per_sec: 13.5 MiB/s (total bytes: 6.5 MiB) (time elapsed: 477 milliseconds) (per-host)
+[2024-11-08 20:40:00,588][absl][INFO] - [process=0][thread=MainThread] Skipping global process sync, barrier name: Checkpointer:save.checkpoint_3556
+[2024-11-08 20:40:00,595][absl][INFO] - [process=0][thread=MainThread] Validating params (raw input=534, unique=267) in TensorStore KvStore: KvStore({
+  'base': {
+    'driver': 'file',
+    'path': '/Users/ayush/Desktop/event-ssm/outputs/2024-11-08-12-31-56/checkpoints/checkpoint_3556.orbax-checkpoint-tmp-27/',
+  },
+  'cache_pool': 'cache_pool#ocdbt',
+  'config': {
+    'compression': {'id': 'zstd'},
+    'max_decoded_node_bytes': 100000000,
+    'max_inline_value_bytes': 1024,
+    'uuid': 'c3696fec7280391c3fb7b5bcad818281',
+    'version_tree_arity_log2': 4,
+  },
+  'context': {
+    'cache_pool#ocdbt': {'total_bytes_limit': 100000000},
+    'data_copy_concurrency': {},
+    'file_io_concurrency': {'limit': 128},
+    'file_io_sync': True,
+    'ocdbt_coordinator': {},
+  },
+  'driver': 'ocdbt',
+  'experimental_read_coalescing_interval': '1ms',
+  'experimental_read_coalescing_merged_bytes': 500000000000,
+  'experimental_read_coalescing_threshold_bytes': 1000000,
+}).
+[2024-11-08 20:40:00,595][absl][INFO] - Renaming /Users/ayush/Desktop/event-ssm/outputs/2024-11-08-12-31-56/checkpoints/checkpoint_3556.orbax-checkpoint-tmp-27 to /Users/ayush/Desktop/event-ssm/outputs/2024-11-08-12-31-56/checkpoints/checkpoint_3556
+[2024-11-08 20:40:00,596][absl][INFO] - [process=0][thread=MainThread] Finished saving checkpoint (finalized tmp dir) to `/Users/ayush/Desktop/event-ssm/outputs/2024-11-08-12-31-56/checkpoints/checkpoint_3556`.
+[2024-11-08 20:40:00,596][absl][INFO] - [process=0][thread=MainThread] Skipping global process sync, barrier name: Checkpointer:finalize.checkpoint_3556
+[2024-11-08 20:40:00,596][absl][INFO] - Removing checkpoint at /Users/ayush/Desktop/event-ssm/outputs/2024-11-08-12-31-56/checkpoints/checkpoint_3302
+WARNING:absl:Tensorflow library not found, tensorflow.io.gfile operations will use native shim calls. GCS paths (i.e. 'gs://...') cannot be accessed.
+WARNING:absl:Tensorflow library not found, tensorflow.io.gfile operations will use native shim calls. GCS paths (i.e. 'gs://...') cannot be accessed.
+WARNING:absl:Tensorflow library not found, tensorflow.io.gfile operations will use native shim calls. GCS paths (i.e. 'gs://...') cannot be accessed.
+WARNING:absl:Tensorflow library not found, tensorflow.io.gfile operations will use native shim calls. GCS paths (i.e. 'gs://...') cannot be accessed.
+/Users/ayush/Desktop/event-ssm/.venv/lib/python3.9/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+/Users/ayush/Desktop/event-ssm/.venv/lib/python3.9/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+/Users/ayush/Desktop/event-ssm/.venv/lib/python3.9/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+/Users/ayush/Desktop/event-ssm/.venv/lib/python3.9/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+-----------------------------------------------------------------------------------------
+| end of epoch  15 | time per epoch: 1047.37s |
+| Train Metrics | accuracy:  0.91 | loss:  0.50
+WARNING:absl:Tensorflow library not found, tensorflow.io.gfile operations will use native shim calls. GCS paths (i.e. 'gs://...') cannot be accessed.
+WARNING:absl:Tensorflow library not found, tensorflow.io.gfile operations will use native shim calls. GCS paths (i.e. 'gs://...') cannot be accessed.
+WARNING:absl:Tensorflow library not found, tensorflow.io.gfile operations will use native shim calls. GCS paths (i.e. 'gs://...') cannot be accessed.
+WARNING:absl:Tensorflow library not found, tensorflow.io.gfile operations will use native shim calls. GCS paths (i.e. 'gs://...') cannot be accessed.
+/Users/ayush/Desktop/event-ssm/.venv/lib/python3.9/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+/Users/ayush/Desktop/event-ssm/.venv/lib/python3.9/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+/Users/ayush/Desktop/event-ssm/.venv/lib/python3.9/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+/Users/ayush/Desktop/event-ssm/.venv/lib/python3.9/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+| Eval  Metrics | accuracy:  0.92 | loss:  0.25
+-----------------------------------------------------------------------------------------
+WARNING:absl:Tensorflow library not found, tensorflow.io.gfile operations will use native shim calls. GCS paths (i.e. 'gs://...') cannot be accessed.
+WARNING:absl:Tensorflow library not found, tensorflow.io.gfile operations will use native shim calls. GCS paths (i.e. 'gs://...') cannot be accessed.
+WARNING:absl:Tensorflow library not found, tensorflow.io.gfile operations will use native shim calls. GCS paths (i.e. 'gs://...') cannot be accessed.
+WARNING:absl:Tensorflow library not found, tensorflow.io.gfile operations will use native shim calls. GCS paths (i.e. 'gs://...') cannot be accessed.
+/Users/ayush/Desktop/event-ssm/.venv/lib/python3.9/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+/Users/ayush/Desktop/event-ssm/.venv/lib/python3.9/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+/Users/ayush/Desktop/event-ssm/.venv/lib/python3.9/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+/Users/ayush/Desktop/event-ssm/.venv/lib/python3.9/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+-----------------------------------------------------------------------------------------
+| end of epoch  16 | time per epoch: 1047.33s |
+| Train Metrics | accuracy:  0.90 | loss:  0.55
+WARNING:absl:Tensorflow library not found, tensorflow.io.gfile operations will use native shim calls. GCS paths (i.e. 'gs://...') cannot be accessed.
+WARNING:absl:Tensorflow library not found, tensorflow.io.gfile operations will use native shim calls. GCS paths (i.e. 'gs://...') cannot be accessed.
+WARNING:absl:Tensorflow library not found, tensorflow.io.gfile operations will use native shim calls. GCS paths (i.e. 'gs://...') cannot be accessed.
+WARNING:absl:Tensorflow library not found, tensorflow.io.gfile operations will use native shim calls. GCS paths (i.e. 'gs://...') cannot be accessed.
+/Users/ayush/Desktop/event-ssm/.venv/lib/python3.9/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+/Users/ayush/Desktop/event-ssm/.venv/lib/python3.9/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+/Users/ayush/Desktop/event-ssm/.venv/lib/python3.9/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+/Users/ayush/Desktop/event-ssm/.venv/lib/python3.9/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+| Eval  Metrics | accuracy:  0.91 | loss:  0.27
+-----------------------------------------------------------------------------------------
+WARNING:absl:Tensorflow library not found, tensorflow.io.gfile operations will use native shim calls. GCS paths (i.e. 'gs://...') cannot be accessed.
+WARNING:absl:Tensorflow library not found, tensorflow.io.gfile operations will use native shim calls. GCS paths (i.e. 'gs://...') cannot be accessed.
+WARNING:absl:Tensorflow library not found, tensorflow.io.gfile operations will use native shim calls. GCS paths (i.e. 'gs://...') cannot be accessed.
+WARNING:absl:Tensorflow library not found, tensorflow.io.gfile operations will use native shim calls. GCS paths (i.e. 'gs://...') cannot be accessed.
+/Users/ayush/Desktop/event-ssm/.venv/lib/python3.9/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+/Users/ayush/Desktop/event-ssm/.venv/lib/python3.9/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+/Users/ayush/Desktop/event-ssm/.venv/lib/python3.9/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+/Users/ayush/Desktop/event-ssm/.venv/lib/python3.9/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+-----------------------------------------------------------------------------------------
+| end of epoch  17 | time per epoch: 1046.65s |
+| Train Metrics | accuracy:  0.91 | loss:  0.53
+WARNING:absl:Tensorflow library not found, tensorflow.io.gfile operations will use native shim calls. GCS paths (i.e. 'gs://...') cannot be accessed.
+WARNING:absl:Tensorflow library not found, tensorflow.io.gfile operations will use native shim calls. GCS paths (i.e. 'gs://...') cannot be accessed.
+WARNING:absl:Tensorflow library not found, tensorflow.io.gfile operations will use native shim calls. GCS paths (i.e. 'gs://...') cannot be accessed.
+WARNING:absl:Tensorflow library not found, tensorflow.io.gfile operations will use native shim calls. GCS paths (i.e. 'gs://...') cannot be accessed.
+/Users/ayush/Desktop/event-ssm/.venv/lib/python3.9/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+/Users/ayush/Desktop/event-ssm/.venv/lib/python3.9/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+/Users/ayush/Desktop/event-ssm/.venv/lib/python3.9/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+/Users/ayush/Desktop/event-ssm/.venv/lib/python3.9/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+| Eval  Metrics | accuracy:  0.92 | loss:  0.23
+-----------------------------------------------------------------------------------------
+WARNING:absl:Tensorflow library not found, tensorflow.io.gfile operations will use native shim calls. GCS paths (i.e. 'gs://...') cannot be accessed.
+WARNING:absl:Tensorflow library not found, tensorflow.io.gfile operations will use native shim calls. GCS paths (i.e. 'gs://...') cannot be accessed.
+WARNING:absl:Tensorflow library not found, tensorflow.io.gfile operations will use native shim calls. GCS paths (i.e. 'gs://...') cannot be accessed.
+WARNING:absl:Tensorflow library not found, tensorflow.io.gfile operations will use native shim calls. GCS paths (i.e. 'gs://...') cannot be accessed.
+/Users/ayush/Desktop/event-ssm/.venv/lib/python3.9/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+/Users/ayush/Desktop/event-ssm/.venv/lib/python3.9/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+/Users/ayush/Desktop/event-ssm/.venv/lib/python3.9/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+/Users/ayush/Desktop/event-ssm/.venv/lib/python3.9/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+-----------------------------------------------------------------------------------------
+| end of epoch  18 | time per epoch: 1047.44s |
+| Train Metrics | accuracy:  0.91 | loss:  0.50
+WARNING:absl:Tensorflow library not found, tensorflow.io.gfile operations will use native shim calls. GCS paths (i.e. 'gs://...') cannot be accessed.
+WARNING:absl:Tensorflow library not found, tensorflow.io.gfile operations will use native shim calls. GCS paths (i.e. 'gs://...') cannot be accessed.
+WARNING:absl:Tensorflow library not found, tensorflow.io.gfile operations will use native shim calls. GCS paths (i.e. 'gs://...') cannot be accessed.
+WARNING:absl:Tensorflow library not found, tensorflow.io.gfile operations will use native shim calls. GCS paths (i.e. 'gs://...') cannot be accessed.
+/Users/ayush/Desktop/event-ssm/.venv/lib/python3.9/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+/Users/ayush/Desktop/event-ssm/.venv/lib/python3.9/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+/Users/ayush/Desktop/event-ssm/.venv/lib/python3.9/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+/Users/ayush/Desktop/event-ssm/.venv/lib/python3.9/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+| Eval  Metrics | accuracy:  0.91 | loss:  0.31
+-----------------------------------------------------------------------------------------
+WARNING:absl:Tensorflow library not found, tensorflow.io.gfile operations will use native shim calls. GCS paths (i.e. 'gs://...') cannot be accessed.
+WARNING:absl:Tensorflow library not found, tensorflow.io.gfile operations will use native shim calls. GCS paths (i.e. 'gs://...') cannot be accessed.
+WARNING:absl:Tensorflow library not found, tensorflow.io.gfile operations will use native shim calls. GCS paths (i.e. 'gs://...') cannot be accessed.
+WARNING:absl:Tensorflow library not found, tensorflow.io.gfile operations will use native shim calls. GCS paths (i.e. 'gs://...') cannot be accessed.
+/Users/ayush/Desktop/event-ssm/.venv/lib/python3.9/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+/Users/ayush/Desktop/event-ssm/.venv/lib/python3.9/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+/Users/ayush/Desktop/event-ssm/.venv/lib/python3.9/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+/Users/ayush/Desktop/event-ssm/.venv/lib/python3.9/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+-----------------------------------------------------------------------------------------
+| end of epoch  19 | time per epoch: 1046.85s |
+| Train Metrics | accuracy:  0.93 | loss:  0.45
+WARNING:absl:Tensorflow library not found, tensorflow.io.gfile operations will use native shim calls. GCS paths (i.e. 'gs://...') cannot be accessed.
+WARNING:absl:Tensorflow library not found, tensorflow.io.gfile operations will use native shim calls. GCS paths (i.e. 'gs://...') cannot be accessed.
+WARNING:absl:Tensorflow library not found, tensorflow.io.gfile operations will use native shim calls. GCS paths (i.e. 'gs://...') cannot be accessed.
+WARNING:absl:Tensorflow library not found, tensorflow.io.gfile operations will use native shim calls. GCS paths (i.e. 'gs://...') cannot be accessed.
+/Users/ayush/Desktop/event-ssm/.venv/lib/python3.9/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+/Users/ayush/Desktop/event-ssm/.venv/lib/python3.9/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+/Users/ayush/Desktop/event-ssm/.venv/lib/python3.9/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+/Users/ayush/Desktop/event-ssm/.venv/lib/python3.9/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+| Eval  Metrics | accuracy:  0.92 | loss:  0.25
+-----------------------------------------------------------------------------------------
+WARNING:absl:Tensorflow library not found, tensorflow.io.gfile operations will use native shim calls. GCS paths (i.e. 'gs://...') cannot be accessed.
+WARNING:absl:Tensorflow library not found, tensorflow.io.gfile operations will use native shim calls. GCS paths (i.e. 'gs://...') cannot be accessed.
+WARNING:absl:Tensorflow library not found, tensorflow.io.gfile operations will use native shim calls. GCS paths (i.e. 'gs://...') cannot be accessed.
+WARNING:absl:Tensorflow library not found, tensorflow.io.gfile operations will use native shim calls. GCS paths (i.e. 'gs://...') cannot be accessed.
+/Users/ayush/Desktop/event-ssm/.venv/lib/python3.9/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+/Users/ayush/Desktop/event-ssm/.venv/lib/python3.9/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+/Users/ayush/Desktop/event-ssm/.venv/lib/python3.9/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+/Users/ayush/Desktop/event-ssm/.venv/lib/python3.9/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+-----------------------------------------------------------------------------------------
+| end of epoch  20 | time per epoch: 1071.09s |
+| Train Metrics | accuracy:  0.92 | loss:  0.44
+WARNING:absl:Tensorflow library not found, tensorflow.io.gfile operations will use native shim calls. GCS paths (i.e. 'gs://...') cannot be accessed.
+WARNING:absl:Tensorflow library not found, tensorflow.io.gfile operations will use native shim calls. GCS paths (i.e. 'gs://...') cannot be accessed.
+WARNING:absl:Tensorflow library not found, tensorflow.io.gfile operations will use native shim calls. GCS paths (i.e. 'gs://...') cannot be accessed.
+WARNING:absl:Tensorflow library not found, tensorflow.io.gfile operations will use native shim calls. GCS paths (i.e. 'gs://...') cannot be accessed.
+/Users/ayush/Desktop/event-ssm/.venv/lib/python3.9/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+/Users/ayush/Desktop/event-ssm/.venv/lib/python3.9/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+/Users/ayush/Desktop/event-ssm/.venv/lib/python3.9/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+/Users/ayush/Desktop/event-ssm/.venv/lib/python3.9/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+| Eval  Metrics | accuracy:  0.93 | loss:  0.20
+-----------------------------------------------------------------------------------------
+WARNING:absl:Tensorflow library not found, tensorflow.io.gfile operations will use native shim calls. GCS paths (i.e. 'gs://...') cannot be accessed.
+WARNING:absl:Tensorflow library not found, tensorflow.io.gfile operations will use native shim calls. GCS paths (i.e. 'gs://...') cannot be accessed.
+WARNING:absl:Tensorflow library not found, tensorflow.io.gfile operations will use native shim calls. GCS paths (i.e. 'gs://...') cannot be accessed.
+WARNING:absl:Tensorflow library not found, tensorflow.io.gfile operations will use native shim calls. GCS paths (i.e. 'gs://...') cannot be accessed.
+/Users/ayush/Desktop/event-ssm/.venv/lib/python3.9/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+/Users/ayush/Desktop/event-ssm/.venv/lib/python3.9/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+/Users/ayush/Desktop/event-ssm/.venv/lib/python3.9/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+/Users/ayush/Desktop/event-ssm/.venv/lib/python3.9/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+-----------------------------------------------------------------------------------------
+| end of epoch  21 | time per epoch: 1088.87s |
+| Train Metrics | accuracy:  0.93 | loss:  0.44
+WARNING:absl:Tensorflow library not found, tensorflow.io.gfile operations will use native shim calls. GCS paths (i.e. 'gs://...') cannot be accessed.
+WARNING:absl:Tensorflow library not found, tensorflow.io.gfile operations will use native shim calls. GCS paths (i.e. 'gs://...') cannot be accessed.
+WARNING:absl:Tensorflow library not found, tensorflow.io.gfile operations will use native shim calls. GCS paths (i.e. 'gs://...') cannot be accessed.
+WARNING:absl:Tensorflow library not found, tensorflow.io.gfile operations will use native shim calls. GCS paths (i.e. 'gs://...') cannot be accessed.
+/Users/ayush/Desktop/event-ssm/.venv/lib/python3.9/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+/Users/ayush/Desktop/event-ssm/.venv/lib/python3.9/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+/Users/ayush/Desktop/event-ssm/.venv/lib/python3.9/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+/Users/ayush/Desktop/event-ssm/.venv/lib/python3.9/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+| Eval  Metrics | accuracy:  0.92 | loss:  0.21
+-----------------------------------------------------------------------------------------
+WARNING:absl:Tensorflow library not found, tensorflow.io.gfile operations will use native shim calls. GCS paths (i.e. 'gs://...') cannot be accessed.
+WARNING:absl:Tensorflow library not found, tensorflow.io.gfile operations will use native shim calls. GCS paths (i.e. 'gs://...') cannot be accessed.
+WARNING:absl:Tensorflow library not found, tensorflow.io.gfile operations will use native shim calls. GCS paths (i.e. 'gs://...') cannot be accessed.
+WARNING:absl:Tensorflow library not found, tensorflow.io.gfile operations will use native shim calls. GCS paths (i.e. 'gs://...') cannot be accessed.
+/Users/ayush/Desktop/event-ssm/.venv/lib/python3.9/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+/Users/ayush/Desktop/event-ssm/.venv/lib/python3.9/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+/Users/ayush/Desktop/event-ssm/.venv/lib/python3.9/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+/Users/ayush/Desktop/event-ssm/.venv/lib/python3.9/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+-----------------------------------------------------------------------------------------
+| end of epoch  22 | time per epoch: 1070.02s |
+| Train Metrics | accuracy:  0.92 | loss:  0.47
+WARNING:absl:Tensorflow library not found, tensorflow.io.gfile operations will use native shim calls. GCS paths (i.e. 'gs://...') cannot be accessed.
+WARNING:absl:Tensorflow library not found, tensorflow.io.gfile operations will use native shim calls. GCS paths (i.e. 'gs://...') cannot be accessed.
+WARNING:absl:Tensorflow library not found, tensorflow.io.gfile operations will use native shim calls. GCS paths (i.e. 'gs://...') cannot be accessed.
+WARNING:absl:Tensorflow library not found, tensorflow.io.gfile operations will use native shim calls. GCS paths (i.e. 'gs://...') cannot be accessed.
+/Users/ayush/Desktop/event-ssm/.venv/lib/python3.9/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+/Users/ayush/Desktop/event-ssm/.venv/lib/python3.9/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+/Users/ayush/Desktop/event-ssm/.venv/lib/python3.9/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+/Users/ayush/Desktop/event-ssm/.venv/lib/python3.9/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+| Eval  Metrics | accuracy:  0.93 | loss:  0.20
+-----------------------------------------------------------------------------------------
+WARNING:absl:Tensorflow library not found, tensorflow.io.gfile operations will use native shim calls. GCS paths (i.e. 'gs://...') cannot be accessed.
+WARNING:absl:Tensorflow library not found, tensorflow.io.gfile operations will use native shim calls. GCS paths (i.e. 'gs://...') cannot be accessed.
+WARNING:absl:Tensorflow library not found, tensorflow.io.gfile operations will use native shim calls. GCS paths (i.e. 'gs://...') cannot be accessed.
+WARNING:absl:Tensorflow library not found, tensorflow.io.gfile operations will use native shim calls. GCS paths (i.e. 'gs://...') cannot be accessed.
+/Users/ayush/Desktop/event-ssm/.venv/lib/python3.9/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+/Users/ayush/Desktop/event-ssm/.venv/lib/python3.9/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+/Users/ayush/Desktop/event-ssm/.venv/lib/python3.9/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+/Users/ayush/Desktop/event-ssm/.venv/lib/python3.9/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+-----------------------------------------------------------------------------------------
+| end of epoch  23 | time per epoch: 1087.74s |
+| Train Metrics | accuracy:  0.93 | loss:  0.47
+WARNING:absl:Tensorflow library not found, tensorflow.io.gfile operations will use native shim calls. GCS paths (i.e. 'gs://...') cannot be accessed.
+WARNING:absl:Tensorflow library not found, tensorflow.io.gfile operations will use native shim calls. GCS paths (i.e. 'gs://...') cannot be accessed.
+WARNING:absl:Tensorflow library not found, tensorflow.io.gfile operations will use native shim calls. GCS paths (i.e. 'gs://...') cannot be accessed.
+WARNING:absl:Tensorflow library not found, tensorflow.io.gfile operations will use native shim calls. GCS paths (i.e. 'gs://...') cannot be accessed.
+/Users/ayush/Desktop/event-ssm/.venv/lib/python3.9/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+/Users/ayush/Desktop/event-ssm/.venv/lib/python3.9/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+/Users/ayush/Desktop/event-ssm/.venv/lib/python3.9/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+/Users/ayush/Desktop/event-ssm/.venv/lib/python3.9/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+| Eval  Metrics | accuracy:  0.93 | loss:  0.19
+-----------------------------------------------------------------------------------------
+WARNING:absl:Tensorflow library not found, tensorflow.io.gfile operations will use native shim calls. GCS paths (i.e. 'gs://...') cannot be accessed.
+WARNING:absl:Tensorflow library not found, tensorflow.io.gfile operations will use native shim calls. GCS paths (i.e. 'gs://...') cannot be accessed.
+WARNING:absl:Tensorflow library not found, tensorflow.io.gfile operations will use native shim calls. GCS paths (i.e. 'gs://...') cannot be accessed.
+WARNING:absl:Tensorflow library not found, tensorflow.io.gfile operations will use native shim calls. GCS paths (i.e. 'gs://...') cannot be accessed.
+/Users/ayush/Desktop/event-ssm/.venv/lib/python3.9/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+/Users/ayush/Desktop/event-ssm/.venv/lib/python3.9/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+/Users/ayush/Desktop/event-ssm/.venv/lib/python3.9/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+/Users/ayush/Desktop/event-ssm/.venv/lib/python3.9/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+-----------------------------------------------------------------------------------------
+| end of epoch  24 | time per epoch: 1085.81s |
+| Train Metrics | accuracy:  0.93 | loss:  0.42
+WARNING:absl:Tensorflow library not found, tensorflow.io.gfile operations will use native shim calls. GCS paths (i.e. 'gs://...') cannot be accessed.
+WARNING:absl:Tensorflow library not found, tensorflow.io.gfile operations will use native shim calls. GCS paths (i.e. 'gs://...') cannot be accessed.
+WARNING:absl:Tensorflow library not found, tensorflow.io.gfile operations will use native shim calls. GCS paths (i.e. 'gs://...') cannot be accessed.
+WARNING:absl:Tensorflow library not found, tensorflow.io.gfile operations will use native shim calls. GCS paths (i.e. 'gs://...') cannot be accessed.
+/Users/ayush/Desktop/event-ssm/.venv/lib/python3.9/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+/Users/ayush/Desktop/event-ssm/.venv/lib/python3.9/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+/Users/ayush/Desktop/event-ssm/.venv/lib/python3.9/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+/Users/ayush/Desktop/event-ssm/.venv/lib/python3.9/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+| Eval  Metrics | accuracy:  0.94 | loss:  0.20
+-----------------------------------------------------------------------------------------
+WARNING:absl:Tensorflow library not found, tensorflow.io.gfile operations will use native shim calls. GCS paths (i.e. 'gs://...') cannot be accessed.
+WARNING:absl:Tensorflow library not found, tensorflow.io.gfile operations will use native shim calls. GCS paths (i.e. 'gs://...') cannot be accessed.
+WARNING:absl:Tensorflow library not found, tensorflow.io.gfile operations will use native shim calls. GCS paths (i.e. 'gs://...') cannot be accessed.
+WARNING:absl:Tensorflow library not found, tensorflow.io.gfile operations will use native shim calls. GCS paths (i.e. 'gs://...') cannot be accessed.
+/Users/ayush/Desktop/event-ssm/.venv/lib/python3.9/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+/Users/ayush/Desktop/event-ssm/.venv/lib/python3.9/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+/Users/ayush/Desktop/event-ssm/.venv/lib/python3.9/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+/Users/ayush/Desktop/event-ssm/.venv/lib/python3.9/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+-----------------------------------------------------------------------------------------
+| end of epoch  25 | time per epoch: 1054.56s |
+| Train Metrics | accuracy:  0.94 | loss:  0.44
+WARNING:absl:Tensorflow library not found, tensorflow.io.gfile operations will use native shim calls. GCS paths (i.e. 'gs://...') cannot be accessed.
+WARNING:absl:Tensorflow library not found, tensorflow.io.gfile operations will use native shim calls. GCS paths (i.e. 'gs://...') cannot be accessed.
+WARNING:absl:Tensorflow library not found, tensorflow.io.gfile operations will use native shim calls. GCS paths (i.e. 'gs://...') cannot be accessed.
+WARNING:absl:Tensorflow library not found, tensorflow.io.gfile operations will use native shim calls. GCS paths (i.e. 'gs://...') cannot be accessed.
+/Users/ayush/Desktop/event-ssm/.venv/lib/python3.9/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+/Users/ayush/Desktop/event-ssm/.venv/lib/python3.9/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+/Users/ayush/Desktop/event-ssm/.venv/lib/python3.9/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+/Users/ayush/Desktop/event-ssm/.venv/lib/python3.9/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+| Eval  Metrics | accuracy:  0.92 | loss:  0.23
+-----------------------------------------------------------------------------------------
+WARNING:absl:Tensorflow library not found, tensorflow.io.gfile operations will use native shim calls. GCS paths (i.e. 'gs://...') cannot be accessed.
+WARNING:absl:Tensorflow library not found, tensorflow.io.gfile operations will use native shim calls. GCS paths (i.e. 'gs://...') cannot be accessed.
+WARNING:absl:Tensorflow library not found, tensorflow.io.gfile operations will use native shim calls. GCS paths (i.e. 'gs://...') cannot be accessed.
+WARNING:absl:Tensorflow library not found, tensorflow.io.gfile operations will use native shim calls. GCS paths (i.e. 'gs://...') cannot be accessed.
+/Users/ayush/Desktop/event-ssm/.venv/lib/python3.9/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+/Users/ayush/Desktop/event-ssm/.venv/lib/python3.9/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+/Users/ayush/Desktop/event-ssm/.venv/lib/python3.9/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+/Users/ayush/Desktop/event-ssm/.venv/lib/python3.9/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+-----------------------------------------------------------------------------------------
+| end of epoch  26 | time per epoch: 1070.46s |
+| Train Metrics | accuracy:  0.94 | loss:  0.41
+WARNING:absl:Tensorflow library not found, tensorflow.io.gfile operations will use native shim calls. GCS paths (i.e. 'gs://...') cannot be accessed.
+WARNING:absl:Tensorflow library not found, tensorflow.io.gfile operations will use native shim calls. GCS paths (i.e. 'gs://...') cannot be accessed.
+WARNING:absl:Tensorflow library not found, tensorflow.io.gfile operations will use native shim calls. GCS paths (i.e. 'gs://...') cannot be accessed.
+WARNING:absl:Tensorflow library not found, tensorflow.io.gfile operations will use native shim calls. GCS paths (i.e. 'gs://...') cannot be accessed.
+/Users/ayush/Desktop/event-ssm/.venv/lib/python3.9/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+/Users/ayush/Desktop/event-ssm/.venv/lib/python3.9/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+/Users/ayush/Desktop/event-ssm/.venv/lib/python3.9/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+/Users/ayush/Desktop/event-ssm/.venv/lib/python3.9/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+| Eval  Metrics | accuracy:  0.93 | loss:  0.21
+-----------------------------------------------------------------------------------------
+WARNING:absl:Tensorflow library not found, tensorflow.io.gfile operations will use native shim calls. GCS paths (i.e. 'gs://...') cannot be accessed.
+WARNING:absl:Tensorflow library not found, tensorflow.io.gfile operations will use native shim calls. GCS paths (i.e. 'gs://...') cannot be accessed.
+WARNING:absl:Tensorflow library not found, tensorflow.io.gfile operations will use native shim calls. GCS paths (i.e. 'gs://...') cannot be accessed.
+WARNING:absl:Tensorflow library not found, tensorflow.io.gfile operations will use native shim calls. GCS paths (i.e. 'gs://...') cannot be accessed.
+/Users/ayush/Desktop/event-ssm/.venv/lib/python3.9/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+/Users/ayush/Desktop/event-ssm/.venv/lib/python3.9/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+/Users/ayush/Desktop/event-ssm/.venv/lib/python3.9/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+/Users/ayush/Desktop/event-ssm/.venv/lib/python3.9/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+-----------------------------------------------------------------------------------------
+| end of epoch  27 | time per epoch: 1072.04s |
+| Train Metrics | accuracy:  0.95 | loss:  0.34
+WARNING:absl:Tensorflow library not found, tensorflow.io.gfile operations will use native shim calls. GCS paths (i.e. 'gs://...') cannot be accessed.
+WARNING:absl:Tensorflow library not found, tensorflow.io.gfile operations will use native shim calls. GCS paths (i.e. 'gs://...') cannot be accessed.
+WARNING:absl:Tensorflow library not found, tensorflow.io.gfile operations will use native shim calls. GCS paths (i.e. 'gs://...') cannot be accessed.
+WARNING:absl:Tensorflow library not found, tensorflow.io.gfile operations will use native shim calls. GCS paths (i.e. 'gs://...') cannot be accessed.
+/Users/ayush/Desktop/event-ssm/.venv/lib/python3.9/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+/Users/ayush/Desktop/event-ssm/.venv/lib/python3.9/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+/Users/ayush/Desktop/event-ssm/.venv/lib/python3.9/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+/Users/ayush/Desktop/event-ssm/.venv/lib/python3.9/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+| Eval  Metrics | accuracy:  0.93 | loss:  0.21
+-----------------------------------------------------------------------------------------
+WARNING:absl:Tensorflow library not found, tensorflow.io.gfile operations will use native shim calls. GCS paths (i.e. 'gs://...') cannot be accessed.
+WARNING:absl:Tensorflow library not found, tensorflow.io.gfile operations will use native shim calls. GCS paths (i.e. 'gs://...') cannot be accessed.
+WARNING:absl:Tensorflow library not found, tensorflow.io.gfile operations will use native shim calls. GCS paths (i.e. 'gs://...') cannot be accessed.
+WARNING:absl:Tensorflow library not found, tensorflow.io.gfile operations will use native shim calls. GCS paths (i.e. 'gs://...') cannot be accessed.
+/Users/ayush/Desktop/event-ssm/.venv/lib/python3.9/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+/Users/ayush/Desktop/event-ssm/.venv/lib/python3.9/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+/Users/ayush/Desktop/event-ssm/.venv/lib/python3.9/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+/Users/ayush/Desktop/event-ssm/.venv/lib/python3.9/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+-----------------------------------------------------------------------------------------
+| end of epoch  28 | time per epoch: 1075.31s |
+| Train Metrics | accuracy:  0.95 | loss:  0.34
+WARNING:absl:Tensorflow library not found, tensorflow.io.gfile operations will use native shim calls. GCS paths (i.e. 'gs://...') cannot be accessed.
+WARNING:absl:Tensorflow library not found, tensorflow.io.gfile operations will use native shim calls. GCS paths (i.e. 'gs://...') cannot be accessed.
+WARNING:absl:Tensorflow library not found, tensorflow.io.gfile operations will use native shim calls. GCS paths (i.e. 'gs://...') cannot be accessed.
+WARNING:absl:Tensorflow library not found, tensorflow.io.gfile operations will use native shim calls. GCS paths (i.e. 'gs://...') cannot be accessed.
+/Users/ayush/Desktop/event-ssm/.venv/lib/python3.9/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+/Users/ayush/Desktop/event-ssm/.venv/lib/python3.9/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+/Users/ayush/Desktop/event-ssm/.venv/lib/python3.9/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+/Users/ayush/Desktop/event-ssm/.venv/lib/python3.9/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+| Eval  Metrics | accuracy:  0.94 | loss:  0.19
+-----------------------------------------------------------------------------------------
+WARNING:absl:Tensorflow library not found, tensorflow.io.gfile operations will use native shim calls. GCS paths (i.e. 'gs://...') cannot be accessed.
+WARNING:absl:Tensorflow library not found, tensorflow.io.gfile operations will use native shim calls. GCS paths (i.e. 'gs://...') cannot be accessed.
+WARNING:absl:Tensorflow library not found, tensorflow.io.gfile operations will use native shim calls. GCS paths (i.e. 'gs://...') cannot be accessed.
+WARNING:absl:Tensorflow library not found, tensorflow.io.gfile operations will use native shim calls. GCS paths (i.e. 'gs://...') cannot be accessed.
+/Users/ayush/Desktop/event-ssm/.venv/lib/python3.9/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+/Users/ayush/Desktop/event-ssm/.venv/lib/python3.9/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+/Users/ayush/Desktop/event-ssm/.venv/lib/python3.9/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+/Users/ayush/Desktop/event-ssm/.venv/lib/python3.9/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+-----------------------------------------------------------------------------------------
+| end of epoch  29 | time per epoch: 1070.48s |
+| Train Metrics | accuracy:  0.94 | loss:  0.43
+WARNING:absl:Tensorflow library not found, tensorflow.io.gfile operations will use native shim calls. GCS paths (i.e. 'gs://...') cannot be accessed.
+WARNING:absl:Tensorflow library not found, tensorflow.io.gfile operations will use native shim calls. GCS paths (i.e. 'gs://...') cannot be accessed.
+WARNING:absl:Tensorflow library not found, tensorflow.io.gfile operations will use native shim calls. GCS paths (i.e. 'gs://...') cannot be accessed.
+WARNING:absl:Tensorflow library not found, tensorflow.io.gfile operations will use native shim calls. GCS paths (i.e. 'gs://...') cannot be accessed.
+/Users/ayush/Desktop/event-ssm/.venv/lib/python3.9/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+/Users/ayush/Desktop/event-ssm/.venv/lib/python3.9/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+/Users/ayush/Desktop/event-ssm/.venv/lib/python3.9/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+/Users/ayush/Desktop/event-ssm/.venv/lib/python3.9/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+| Eval  Metrics | accuracy:  0.93 | loss:  0.20
+-----------------------------------------------------------------------------------------
+WARNING:absl:Tensorflow library not found, tensorflow.io.gfile operations will use native shim calls. GCS paths (i.e. 'gs://...') cannot be accessed.
+WARNING:absl:Tensorflow library not found, tensorflow.io.gfile operations will use native shim calls. GCS paths (i.e. 'gs://...') cannot be accessed.
+WARNING:absl:Tensorflow library not found, tensorflow.io.gfile operations will use native shim calls. GCS paths (i.e. 'gs://...') cannot be accessed.
+WARNING:absl:Tensorflow library not found, tensorflow.io.gfile operations will use native shim calls. GCS paths (i.e. 'gs://...') cannot be accessed.
+/Users/ayush/Desktop/event-ssm/.venv/lib/python3.9/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+/Users/ayush/Desktop/event-ssm/.venv/lib/python3.9/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+/Users/ayush/Desktop/event-ssm/.venv/lib/python3.9/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+/Users/ayush/Desktop/event-ssm/.venv/lib/python3.9/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+-----------------------------------------------------------------------------------------
+| end of epoch  30 | time per epoch: 1086.80s |
+| Train Metrics | accuracy:  0.94 | loss:  0.41
+WARNING:absl:Tensorflow library not found, tensorflow.io.gfile operations will use native shim calls. GCS paths (i.e. 'gs://...') cannot be accessed.
+WARNING:absl:Tensorflow library not found, tensorflow.io.gfile operations will use native shim calls. GCS paths (i.e. 'gs://...') cannot be accessed.
+WARNING:absl:Tensorflow library not found, tensorflow.io.gfile operations will use native shim calls. GCS paths (i.e. 'gs://...') cannot be accessed.
+WARNING:absl:Tensorflow library not found, tensorflow.io.gfile operations will use native shim calls. GCS paths (i.e. 'gs://...') cannot be accessed.
+/Users/ayush/Desktop/event-ssm/.venv/lib/python3.9/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+/Users/ayush/Desktop/event-ssm/.venv/lib/python3.9/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+/Users/ayush/Desktop/event-ssm/.venv/lib/python3.9/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+/Users/ayush/Desktop/event-ssm/.venv/lib/python3.9/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+| Eval  Metrics | accuracy:  0.93 | loss:  0.20
+-----------------------------------------------------------------------------------------
+[2024-11-09 02:29:39,542][absl][INFO] - Restoring orbax checkpoint from outputs/2024-11-08-12-31-56/checkpoints/checkpoint_3556
+[2024-11-09 02:29:39,621][absl][INFO] - Restoring checkpoint from outputs/2024-11-08-12-31-56/checkpoints/checkpoint_3556.
+Error executing job with overrides: []
+Traceback (most recent call last):
+  File "/Users/ayush/Desktop/event-ssm/run_training.py", line 112, in main
+    trainer.train_model(
+  File "/Users/ayush/Desktop/event-ssm/event_ssm/trainer.py", line 143, in train_model
+    self.load_model()
+  File "/Users/ayush/Desktop/event-ssm/event_ssm/trainer.py", line 312, in load_model
+    self.train_state = checkpoints.restore_checkpoint(ckpt_dir=os.path.join(self.log_dir, 'checkpoints'), target=self.train_state)
+  File "/Users/ayush/Desktop/event-ssm/.venv/lib/python3.9/site-packages/flax/training/checkpoints.py", line 1129, in restore_checkpoint
+    restored = orbax_checkpointer.restore(
+  File "/Users/ayush/Desktop/event-ssm/.venv/lib/python3.9/site-packages/orbax/checkpoint/checkpointer.py", line 239, in restore
+    restored = self._handler.restore(directory, args=ckpt_args)
+  File "/Users/ayush/Desktop/event-ssm/.venv/lib/python3.9/site-packages/orbax/checkpoint/_src/handlers/pytree_checkpoint_handler.py", line 814, in restore
+    restored_item = asyncio.run(
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/asyncio/runners.py", line 44, in run
+    return loop.run_until_complete(main)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/asyncio/base_events.py", line 642, in run_until_complete
+    return future.result()
+  File "/Users/ayush/Desktop/event-ssm/.venv/lib/python3.9/site-packages/orbax/checkpoint/_src/handlers/pytree_checkpoint_handler.py", line 611, in _maybe_deserialize
+    deserialized_batches += await asyncio.gather(*deserialized_batches_ops)
+  File "/Users/ayush/Desktop/event-ssm/.venv/lib/python3.9/site-packages/orbax/checkpoint/type_handlers.py", line 1368, in deserialize
+    tspec = self._get_json_tspec_read(info, use_ocdbt=use_ocdbt)
+  File "/Users/ayush/Desktop/event-ssm/.venv/lib/python3.9/site-packages/orbax/checkpoint/type_handlers.py", line 1107, in _get_json_tspec_read
+    return get_json_tspec_read(
+  File "/Users/ayush/Desktop/event-ssm/.venv/lib/python3.9/site-packages/orbax/checkpoint/type_handlers.py", line 295, in get_json_tspec_read
+    return _get_json_tspec(
+  File "/Users/ayush/Desktop/event-ssm/.venv/lib/python3.9/site-packages/orbax/checkpoint/type_handlers.py", line 268, in _get_json_tspec
+    kvstore_tspec = ts_utils.build_kvstore_tspec(
+  File "/Users/ayush/Desktop/event-ssm/.venv/lib/python3.9/site-packages/orbax/checkpoint/_src/serialization/tensorstore_utils.py", line 92, in build_kvstore_tspec
+    raise ValueError(f'Checkpoint path should be absolute. Got {directory}')
+ValueError: Checkpoint path should be absolute. Got outputs/2024-11-08-12-31-56/checkpoints/checkpoint_3556
+
+Set the environment variable HYDRA_FULL_ERROR=1 for a complete stack trace.
